@@ -1,0 +1,2040 @@
+{ 
+   "categories":[
+      {
+         "title":"Posters",
+         "slug":"posters",
+         "first":"quiet-storm-sessions",
+         "description" : "<p>Posters designed for a range of musicians aiming to create a visual representation of the artist’s music. As this project continued, this went on to include television series and movies. One of the main challenges of this project involved maintaining a consistent visual language between what the artist’s already established and the poster. This involved researching said visual language in their music videos and album cover designs, the direction they intended their music to go, and the artist’s overall ethos. The posters typically incorporated an illustrative quality whether that be with hand drawn typography or crudely drawn smiley faces. The intent of these hand drawn elements was to bring in a personal interpretation of the musicians visual language, and more importantly, create a design which maintains a sense of fun.</p>"
+      },
+      {
+         "title":"Animation",
+         "slug":"animation",
+         "first":"brokenbottle",
+         "description": "A series of short videos created in Maya or done using frame-by-frame animation in Photoshop focused on exploring different visual styles. A different song was chosen to be the theme of each animation with the goal of creating a visual representation of the chosen song. To do this each animation was created with a focus on expression rather than the realism some other works may pursue, curating the overall tone of the image through color, light, and movement. The animation for <i>Hurry Home</i> is a part of a larger unfinished series focused on dreamlike imagery and graphic narratives."
+      },
+      {
+         "title":"Illustration",
+         "slug":"illustration",
+         "first":"toronto-raptors",
+         "description": "<p>A recent illustration series on select NBA teams. Also included is an older illustration series aiming to create a visual representation of selected holidays and other seasonal events. Exploration and experimentation played a large role in this project, with the goal being to gain experience in the Adobe suite and to develop a sense of different illustration processes. For example, a majority of the animated illustrations were done through hand drawn frame by frame animation inspired by the works of Canadian animator, Norman Mclaren.</p>"
+      },
+      {
+         "title":"Photos",
+         "slug":"photos",
+         "first":"003-1",
+         "description": "<p>Photographs taken across Canada, Japan, and Hong Kong made with a mixture of analog and digital processes, and edited digitally using Photoshop and Lightroom. Currently focused on a series of diptychs that explores the connection of images through color, composition, lighting, and feeling.</p>"
+      },
+      {
+         "title":"Misc.",
+         "slug":"misc",
+         "first":"to-carve-a-smile",
+         "description": "<p>Selected projects that don’t fall under the other categories. The short film, <i>To Carve a Smile</i> won Digital Health Circle’s Help My Grandma Day Contest, a digital storytelling contest aimed at building community through intergenerational storytelling. Live video effects created using Max software developed by Cycling ‘74.</p>"
+      }
+   ],
+   "information":{
+      "info":"<p>Jacky Luk is a graphic designer and illustrator based in Vancouver, BC. He holds a BSC from Simon Fraser University majoring in Computing Science and a minor in Interactive Arts and Technology. He believes in approaching each project with a playful and open mindset, aiming to challenge the cultural perceptions on the fluidity between art, design, and technology as well as the importance of the three disciplines in our everyday lives.</p>",
+      "facts":[
+        "Skillful",
+        "Hardworking",
+        "Photoshop, Illustrator, Lightroom",
+        "Premiere Pro, After Effects, Autodesk Maya",
+        "HTML & CSS (JS)", 
+        "In exchange for CAD, he can design posters, layouts, make illustrations, animate something, make little websites",
+        "Also likes messing around with type on the side",
+        "Despite domain name not actually based in the UK"
+      ],
+      "links":[
+         {
+            "title":"Writing",
+            "text":"<p><a href=\"https:\/\/walkerart.org\/magazine\/erik-carter-op-ed-do-you-want-typography-or-do-you-want-the-truth\">Do You Want Typography or Do You Want The Truth<\/a> <em>Walker Art Center<\/em><br \/>\n<a href=\"https:\/\/lithub.com\/secrets-of-the-book-designer-the-many-ways-a-cover-is-rejected\/\">Secrets of the Book Designer: The Many Ways a Cover is Rejected<\/a> <em>Literary Hub<\/em><br \/>\n<a href=\"http:\/\/spinemagazine.co\/articles\/erik-carter\">Erik Carter Discusses Cover Design for Locus Solus<\/a> <em>SPINE<\/em><\/p>"
+         },
+         {
+            "title":"Press \/ Interviews",
+            "text":"<p><a href=\"https:\/\/eyeondesign.aiga.org\/how-to-defeat-the-terror-of-bad-design-design-harder\/\">AIGA Eye on Design (1<\/a>)<br \/>\n<a href=\"https:\/\/eyeondesign.aiga.org\/how-do-you-design-for-an-era-thats-too-absurd-to-parody\/\">AIGA Eye on Design (2<\/a>)<br \/>\n<a href=\"https:\/\/www.itsnicethat.com\/articles\/erik-carter-graphic-design-201119\">It's Nice That (1<\/a>)<br \/>\n<a href=\"https:\/\/www.itsnicethat.com\/articles\/erik-carter\">It's Nice That (2<\/a>)<br \/>\n<a href=\"https:\/\/soundcloud.com\/thephonecast\/cortney-cassidy-eric-carter\">The Phone Cast<\/a><br \/>\n<a href=\"https:\/\/www.fastcompany.com\/90132487\/7-famous-designers-describe-the-first-time-they-got-rejected\">FastCompany<\/a><br \/>\n<a href=\"https:\/\/thebaffler.com\/latest\/different-by-design-hawley\">The Baffler<\/a><br \/>\n<a href=\"http:\/\/amt.parsons.edu\/blog\/bfacd-alumni-feature-erik-carter\/\">Parsons School of Design<\/a><br \/>\n<a href=\"https:\/\/99u.adobe.com\/articles\/58382\/love-the-design-work-hate-the-designer-how-much-do-a-designers-morals-matter\">99U<\/a><\/p>"
+         }
+      ],
+        "copyright":"<p>&copy; 2020 Jacky Luk. All Rights Reserved.<\/p>"
+   },
+   "contact":{
+      "links":[
+         {
+            "label":"Email",
+            "url":"mailto:hi@jackyl.uk"
+         },
+         {
+            "label":"Instagram",
+            "url":"https:\/\/www.instagram.com\/jackyl.uk\/"
+         },
+         {
+            "label":"Are.na",
+            "url":"https://www.are.na/jacky-luk"
+         }
+      ]
+   },
+   "posters":[
+    {
+      "title": "Sango - The Quiet Storm Sessions",
+      "slug": "quiet-storm-sessions",
+      "category": "posters",
+      "date": "<p>02.12.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "3084a77a8e854fbb8e9b7b2898e16cf0",
+          "url": "https://jkluk.blob.core.windows.net/posters/quietstorm_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "King Princess - Cheap Queen Tour",
+      "slug": "cheap-queen",
+      "category": "posters",
+      "date": "<p>01.16.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "bdfe62cb29b7425ba810d77811380caa",
+          "url": "https://jkluk.blob.core.windows.net/posters/kingprincess_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Brockhampton - Heaven Belongs To You Tour",
+      "slug": "heaven-belongs-to-you",
+      "category": "posters",
+      "date": "<p>10.26.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "3c0400f737874dfe9e7125e7220e41c9",
+          "url": "https://jkluk.blob.core.windows.net/posters/ginger_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Jacques Greene Live",
+      "slug": "dawn-chorus",
+      "category": "posters",
+      "date": "<p>02.28.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "f1e6871f76324930baf59ad1c5862b1f",
+          "url": "https://jkluk.blob.core.windows.net/posters/dawnchorus_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Rex Orange County - Pony Tour",
+      "slug": "pony-tour",
+      "category": "posters",
+      "date": "<p>01.20.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "1ed3f68f494c42ccb5e5de973a85b61b",
+          "url": "https://jkluk.blob.core.windows.net/posters/pony_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "We Are Who We Are",
+      "slug": "we-are-who-we-are",
+      "category": "posters",
+      "date": "<p>09.14.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "97b0e2b7e30d4feca34e3d51793e6570",
+          "url": "https://jkluk.blob.core.windows.net/posters/wearewhoweare_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "A Whisker Away",
+      "slug": "whisker-away",
+      "category": "posters",
+      "date": "<p>06.18.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "8ae17435dd214e44a352d0f4b6f3ac6c",
+          "url": "https://jkluk.blob.core.windows.net/posters/awhiskeraway_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Insecure Season 4 Episode 7",
+      "slug": "lowkey-trippin",
+      "category": "posters",
+      "date": "<p>05.24.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "039c38ea66c6485d86f7430ba4590770",
+          "url": "https://jkluk.blob.core.windows.net/posters/insecure7_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Insecure Season 4 Episode 8",
+      "slug": "lowkey-happy",
+      "category": "posters",
+      "date": "<p>05.31.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "060c6571719f4f1fad4217e9232c140f",
+          "url": "https://jkluk.blob.core.windows.net/posters/insecure8_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Insecure Season 4 Episode 9",
+      "slug": "lowkey-trying",
+      "category": "posters",
+      "date": "<p>06.07.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "f4e9eacf80ea45d7b3837f4a23270a04",
+          "url": "https://jkluk.blob.core.windows.net/posters/insecure9_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Insecure Season 4 Episode 10",
+      "slug": "lowkey-lost",
+      "category": "posters",
+      "date": "<p>06.14.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "e5effc9bf511464291bc6b1e41273ada",
+          "url": "https://jkluk.blob.core.windows.net/posters/insecure10_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "The Last Dance Episodes V & VI",
+      "slug": "lastdance-5",
+      "category": "posters",
+      "date": "<p>05.04.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "d1ecc73c3768426b87fc415ca0736694",
+          "url": "https://jkluk.blob.core.windows.net/posters/thelastdanceV_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "The Last Dance Episodes VII & VIII",
+      "slug": "lastdance-7",
+      "category": "posters",
+      "date": "<p>05.10.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "1759d9daf9754ee19e2d2c116d22a393",
+          "url": "https://jkluk.blob.core.windows.net/posters/thelastdanceVII_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "The Last Dance Episodes IX & X",
+      "slug": "lastdance-9",
+      "category": "posters",
+      "date": "<p>05.18.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "def5d3f2edd34b76a4e991cb4c828621",
+          "url": "https://jkluk.blob.core.windows.net/posters/thelastdanceIX_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "88 Rising - Asia Rising Forever Live Stream",
+      "slug": "asia-rising-forever",
+      "category": "posters",
+      "date": "<p>05.06.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "aa0469afe9cf4996a44f6a923ad6502a",
+          "url": "https://jkluk.blob.core.windows.net/posters/asiarisingforever_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dorian Electra - Flamboyant Tour",
+      "slug": "flamboyant-tour",
+      "category": "posters",
+      "date": "<p>03.14.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "9c187c6289e448cbb306e8cf114450f9",
+          "url": "https://jkluk.blob.core.windows.net/posters/flamboyant_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Thundercat Live 2020",
+      "slug": "thundercat-2020",
+      "category": "posters",
+      "date": "<p>02.28.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "67778b8bddd54c138b826a11b4b475ac",
+          "url": "https://jkluk.blob.core.windows.net/posters/thundercat_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dijon Tour 2020",
+      "slug": "dijon-tour-2020",
+      "category": "posters",
+      "date": "<p>02.15.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "51cb8ef0dbcb4677b4fa92777b9cb2ea",
+          "url": "https://jkluk.blob.core.windows.net/posters/crybaby_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Kingfisher Bluez 12th Annual Xmas Party",
+      "slug": "kingfisher-bluez-12xmas",
+      "category": "posters",
+      "date": "<p>12.21.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "7abd28e318f4429885150dcbb9a1673f",
+          "url": "https://jkluk.blob.core.windows.net/posters/kingfisher_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Alex Cameron Live 2019",
+      "slug": "miami-memory",
+      "category": "posters",
+      "date": "<p>12.14.2019 - 12.15.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "9f7b3f4b0a2a4c0c8d50df1549855842",
+          "url": "https://jkluk.blob.core.windows.net/posters/miamimemory_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Winter Breakout Festival 2019",
+      "slug": "winterbreakout-2019",
+      "category": "posters",
+      "date": "<p>12.13.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "fe9ab63fa59641ada915e008cb468919",
+          "url": "https://jkluk.blob.core.windows.net/posters/winterbreakout2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Daniel Caesar - Case Study Tour",
+      "slug": "casestudy-tour",
+      "category": "posters",
+      "date": "<p>11.27.2019 - 11.28.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "bf959321881843d9adcffa4d7ad0a970",
+          "url": "https://jkluk.blob.core.windows.net/posters/casestudy_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "FKA Twigs - Magdalene Tour",
+      "slug": "magdalene",
+      "category": "posters",
+      "date": "<p>11.02.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "e9f7c8485c054eb5bc63ebb1990df9a6",
+          "url": "https://jkluk.blob.core.windows.net/posters/magdalene_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Tyler, The Creator - Igor Tour",
+      "slug": "igor-tour",
+      "category": "posters",
+      "date": "<p>10.15.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "1d15d39d45a6471f9d9c1a4c7634d5f6",
+          "url": "https://jkluk.blob.core.windows.net/posters/igor_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Clairo - Immunity Tour",
+      "slug": "immunity-tour",
+      "category": "posters",
+      "date": "<p>10.09.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "3d49e9c52bf74ac0b5442cba068405a7",
+          "url": "https://jkluk.blob.core.windows.net/posters/immunity_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dominic Fike - Rain or Shine Tour",
+      "slug": "ROS-tour",
+      "category": "posters",
+      "date": "<p>09.28.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "1e77318fb34d4c799ce76c8b11e18735",
+          "url": "https://jkluk.blob.core.windows.net/posters/ROS_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Terrace House: Tokyo 2019-2020 Part 1",
+      "slug": "th2019-part1",
+      "category": "posters",
+      "date": "<p>09.10.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "cf081110aedc4662a4b8d24295353c5c",
+          "url": "https://jkluk.blob.core.windows.net/posters/terracehouse1_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Terrace House: Tokyo 2019-2020 Part 2",
+      "slug": "th2019-part2",
+      "category": "posters",
+      "date": "<p>12.24.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "1d0108733a2b427586efa0e47c07c709",
+          "url": "https://jkluk.blob.core.windows.net/posters/terracehouse2_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Terrace House: Tokyo 2019-2020 Part 3",
+      "slug": "th2019-part3",
+      "category": "posters",
+      "date": "<p>04.07.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "ac70b64c62eb466891eef9b47f00f8be",
+          "url": "https://jkluk.blob.core.windows.net/posters/terracehouse3_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Vampire Weekend - Father of the Bride Tour",
+      "slug": "fotb-tour",
+      "category": "posters",
+      "date": "<p>09.25.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "8eea7ade92a849d298b42be9c6a5a3ae",
+          "url": "https://jkluk.blob.core.windows.net/posters/vampireweekend_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    }
+  ],
+  "animation":[
+    {
+      "title": "Umi - Broken Bottle",
+      "slug": "brokenbottle",
+      "category": "animation",
+      "date": "<p>09.13.2020</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "07fd289551f7459e8f026a23e65a10f6",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/animation/brokenbottle_web_1080x1080_AACAudio_3914.mp4",
+              "mime": "video/mp4",
+              "id": "07fd289551f7459e8f026a23e65a10f6"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
+    {
+      "title": "No Rome - Hurry Home",
+      "slug": "hurryhome",
+      "category": "animation",
+      "date": "<p>06.26.2020</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "3f553129367e46369b554aa55ea0a96c",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/animation/hurryhome_web_1080x1080_AACAudio_3541.mp4",
+              "mime": "video/mp4",
+              "id": "3f553129367e46369b554aa55ea0a96c"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
+    {
+      "title": "Choker - Juno",
+      "slug": "juno",
+      "category": "animation",
+      "date": "<p>04.18.2020</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "500ac5d58ca145b38fcbf1e1405cf664",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/animation/juno_web_1920x1080_AACAudio_5465.mp4",
+              "mime": "video/mp4",
+              "id": "500ac5d58ca145b38fcbf1e1405cf664"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
+    {
+      "title": "beabadoobee - Coffee",
+      "slug": "coffee",
+      "category": "animation",
+      "date": "<p>03.31.2020</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "d5dbe97b85ad404d8a2e3ba35dbd6aa0",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/animation/coffee_web_608x1080_AACAudio_2199.mp4",
+              "mime": "video/mp4",
+              "id": "d5dbe97b85ad404d8a2e3ba35dbd6aa0"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
+    {
+      "title": "keshi - Skeletons",
+      "slug": "skeletons",
+      "category": "animation",
+      "date": "<p>03.19.2020</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "fc1dd2b4459a47e7b815f826af525628",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/animation/skeletons_web_1080x1080_AACAudio_3600.mp4",
+              "mime": "video/mp4",
+              "id": "fc1dd2b4459a47e7b815f826af525628"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    }
+  ],
+  "illustration":[
+    {
+      "title": "Toronto Raptors",
+      "slug": "toronto-raptors",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "95dd2af3dad14620829897a2457e633b",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/raptors_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Boston Celtics",
+      "slug": "boston-celtics",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "77e45f1e6cd24f00986813bdf629092a",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/celtics_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Miami Heat",
+      "slug": "miami-heat",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "ad933d03760342dd844ca89247bde97d",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/heat_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Los Angeles Clippers",
+      "slug": "la-clippers",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "56ba946099cf4ab79822b644b2da5238",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/clippers_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dallas Mavericks",
+      "slug": "dallas-mavericks",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "afeceed4d5aa486895c59b4f8a45b6bd",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/mavs_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Milwaukee Bucks",
+      "slug": "milwaukee-bucks",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "e458c15ddcf042ea97a8afd6a68afc02",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/bucks_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "New Years",
+      "slug": "newyears-2019",
+      "category": "illustration",
+      "date": "<p>12.31.2019</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "c39ebaf8423e4cd0b34dbd842bc52a02",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/newyears2019_web_480x852_AACAudio_1948.mp4",
+              "mime": "video/mp4",
+              "id": "c39ebaf8423e4cd0b34dbd842bc52a02"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
+    {
+      "title": "Boxing Day",
+      "slug": "boxingday-2019",
+      "category": "illustration",
+      "date": "<p>12.26.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "8fdfddf3bbf6477c8d0cf2538d77e672",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/boxing2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Kwanzaa",
+      "slug": "kwanzaa-2019",
+      "category": "illustration",
+      "date": "<p>12.26.2019 - 01.01.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "cc00961abf274e5bafbaa21704bf55d4",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/kwanzaa2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Hanukkah",
+      "slug": "hanukkah-2019",
+      "category": "illustration",
+      "date": "<p>12.22.2019 - 12.30.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "618bfd5e83a940da92f4762cd03d0904",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/hanukkah2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Winter Solstice",
+      "slug": "wintersolstice-2019",
+      "category": "illustration",
+      "date": "<p>12.21.2019</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "1b1af852523d4100af713b5a118cbace",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/wintersolstice2019_web.mp4",
+              "mime": "video/mp4",
+              "id": "1b1af852523d4100af713b5a118cbace"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
+    {
+      "title": "Cyber Monday",
+      "slug": "cybermonday-2019",
+      "category": "illustration",
+      "date": "<p>12.02.2019</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "bffa5c8ed6344ff9ab8bdc52239dfe33",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/cybermon2019_web_698x1080_AACAudio_2449.mp4",
+              "mime": "video/mp4",
+              "id": "bffa5c8ed6344ff9ab8bdc52239dfe33"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
+    {
+      "title": "Black Friday",
+      "slug": "blackfriday-2019",
+      "category": "illustration",
+      "date": "<p>11.29.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "7b7b389be0d54445b5d7bca23bd9a680",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/blackfri2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Remembrance Day",
+      "slug": "remembrance-2019",
+      "category": "illustration",
+      "date": "<p>11.11.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "e5d825b27fdb492bbb0fffc19677b406",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/remembrance2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Daylight Savings Time Ends",
+      "slug": "daylight-end-2019",
+      "category": "illustration",
+      "date": "<p>11.03.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "b5f0e4595bc743c897bcaa14c00da3ca",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/daylight2_2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dios De Los Muertos",
+      "slug": "dios-de-los-muertos-2019",
+      "category": "illustration",
+      "date": "<p>11.02.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "d495b428f29b43ccb57a2c069aa72ed0",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/diosdelosmuertos2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Halloween",
+      "slug": "halloween-2019",
+      "category": "illustration",
+      "date": "<p>10.31.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "90d463e82b4646bf9b79b70ed9f30ab0",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/halloween2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Thanksgiving",
+      "slug": "thanksgiving-2019",
+      "category": "illustration",
+      "date": "<p>10.14.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "73a4dd70c54540c4b6e5606e687d2486",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/thanksgiving2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Autumnal Equinox",
+      "slug": "autumnalequinox-2019",
+      "category": "illustration",
+      "date": "<p>09.23.2019</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "7b2e0dab0e27480e9ad06539d0969076",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/autumnalequinox2019_web_608x1080_AACAudio_2132.mp4",
+              "mime": "video/mp4",
+              "id": "7b2e0dab0e27480e9ad06539d0969076"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
+    {
+      "title": "Mid-Autumn Festival",
+      "slug": "midautumn-2019",
+      "category": "illustration",
+      "date": "<p>09.13.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "7ca7ea48f3b245b3979d5de5d2512932",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/midautumn2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Labor Day",
+      "slug": "laborday-2019",
+      "category": "illustration",
+      "date": "<p>09.02.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "487ded0805a649fa9ffc099a4a367d36",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/laborday2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Civic Holiday",
+      "slug": "civic-2019",
+      "category": "illustration",
+      "date": "<p>08.05.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "a36e86b412764a89ab688387a13c10e9",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/civic2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Vancouver Pride Day",
+      "slug": "pride-2019",
+      "category": "illustration",
+      "date": "<p>08.04.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "68ed1f22568148aba431972f963a5dcb",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/pride2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "International Self-Care Day",
+      "slug": "selfcare-2019",
+      "category": "illustration",
+      "date": "<p>07.24.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "d8087a0db9fe482aa34bb00392df98a6",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/selfcare2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Canada Day",
+      "slug": "canadaday-2019",
+      "category": "illustration",
+      "date": "<p>07.01.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "e04edd47875d4e92947260338e4a65be",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/canada2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Summer Solstice",
+      "slug": "summersolstice-2019",
+      "category": "illustration",
+      "date": "<p>06.21.2019</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "9328d968375a458babcc1e36d9111c83",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/summersolstice2019_web_718x1080_AACAudio_2550.mp4",
+              "mime": "video/mp4",
+              "id": "9328d968375a458babcc1e36d9111c83"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
+    {
+      "title": "Father's Day",
+      "slug": "fathersday-2019",
+      "category": "illustration",
+      "date": "<p>06.16.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "9e4340b810d341e5a998fc1166209540",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/fathersday2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Victoria Day",
+      "slug": "victoriaday-2019",
+      "category": "illustration",
+      "date": "<p>05.20.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "ae3836b0936a42fbb593ae6a546d415a",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/victoria2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Mother's Day",
+      "slug": "mothersday-2019",
+      "category": "illustration",
+      "date": "<p>05.12.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "e6d37c8c79dc4a2c92740d67cf2574c0",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/mothersday2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Easter Monday",
+      "slug": "eastermonday-2019",
+      "category": "illustration",
+      "date": "<p>04.22.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "1b2af53c394642cba69f38423fdc15f4",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/eastermon2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Good Friday",
+      "slug": "goodfriday-2019",
+      "category": "illustration",
+      "date": "<p>04.19.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "6cf46f1edb164766bd779e91e19fd910",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/goodfri2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Earth Day",
+      "slug": "earthday-2019",
+      "category": "illustration",
+      "date": "<p>04.22.2019</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "630f5ba8e4be47af9910eb3181bca9b1",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/earthday2019_web_718x1080_AACAudio_2757.mp4",
+              "mime": "video/mp4",
+              "id": "630f5ba8e4be47af9910eb3181bca9b1"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
+    {
+      "title": "St. Patrick's Day",
+      "slug": "stpatrick-2019",
+      "category": "illustration",
+      "date": "<p>03.17.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "3228e92651ec4c72ad7834ba804f8fc7",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/stpattys2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Daylight Savings Time Begins",
+      "slug": "daylight-start-2019",
+      "category": "illustration",
+      "date": "<p>03.10.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "a53788d7851646f196eabb453ea4a9af",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/daylight1_2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Family Day",
+      "slug": "familyday-2019",
+      "category": "illustration",
+      "date": "<p>02.18.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "dcaf3df990f240628de5f17c10a3402d",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/familyday2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    },
+    {
+      "title": "Valentine's Day",
+      "slug": "valentines_web",
+      "category": "illustration",
+      "date": "<p>02.14.2019</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "fafb5e3cd56b48b18121f39db73be0cc",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/valentines2019_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 750,
+            "height": 1333
+          }
+        }
+      ]
+    }
+  ],
+  "photos":[
+    {
+      "title": "",
+      "slug": "003-1",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "f9ed435e2aba48baa4f9139eaa436625",
+          "url": "https://jkluk.blob.core.windows.net/photos/003-1.png",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-1",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "8841755bc9a54268b3d8a7afade7205b",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-1.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-2",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "3247cd3e4f5b4b159d8bfd2c8499db22",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-2.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-3",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "c211c765a2044790823e139731e6866c",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-3.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-4",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "6ebf7453aa7a4dfe8242ae28783a4775",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-4.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-5",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "4775ce6c958f4fb0b40bea8b12a77ecb",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-5.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-6",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "92b64b2f4a0542db81021d0fc945fb00",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-6.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-7",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "6d2dc38d360a498b91206ec2b0ab72bd",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-7.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-8",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "4c25a604f46b4c159290552f0022657a",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-8.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-9",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "9699f8bf2a254b2497421c0809b47e6e",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-9.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-10",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "e7d425e69d4c4a0cb500f47e60cc934b",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-10.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-11",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "0238d7ae242a43ceae55dbdf1b716b91",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-11.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-12",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "6d73425d642747498e1b8ae3db6870a8",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-12.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-13",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "33b01184bc324759a5f20d8720da17fd",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-13.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-14",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "abcdfcd76c3a469b8043491187c15e28",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-14.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-15",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "df22a2a4ca0c47d8abfe583617b1ecfc",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-15.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-16",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "5ddf7a4bf5ce45b68ace5e0996d5196b",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-16.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-17",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "9523ae9cfe894092b52b2f7a50f20020",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-17.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-18",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "ee3df39ae64c4a158ce90a4a10cc7fd1",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-18.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-19",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "7c3f12c244e64d20b0797636bf5001c8",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-19.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-20",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "a8e91b40f46042d18f78420d26745f7e",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-20.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-21",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "776960b214454f0790b91b3a0e047dbf",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-21.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-11",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "741cf17a105f4ecf821ca098fc5e8155",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-11.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-10",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "26a70960a2d54d68b3a6a233eea8bb47",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-10.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-9",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "27e819c77e714590bf5d6f317da7b411",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-9.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-8",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "f8d1b3fad8644b398dfc6f41c56fbeef",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-8.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-7",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "c5f954bb9ba948e6b664626107892a69",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-7.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-6",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "39d27ad2415f4ebc8f5bf2018b2f7b94",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-6.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-5",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "a3d0fd7a74de48c28cf6ff4f8f35cf1b",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-5.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-4",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "21342dca087a4ba99ecb13be7405d4ea",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-4.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-3",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "8cdd535a70d641669b971f6c14b41bd5",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-3.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-2",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "2b9528f0acfb41e49abb6d388ecf35f1",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-2.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "001-1",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "39a5890ccc814f0fb636d4d763d94968",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-1.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    }
+  ],
+  "misc":[
+    {
+      "title": "To Carve a Smile",
+      "slug": "to-carve-a-smile",
+      "category": "misc",
+      "date": "<p>12.03.2019</p>",
+      "extra": "Dino Dang, Nicole Filipowski",
+      "media": [
+        {
+          "type": "video",
+          "id": "57f1c5fdf999494fa368a4a8837affb9",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/etc/To Carve a Smile_1920x1080_AACAudio_5602.mp4",
+              "mime": "video/mp4",
+              "id": "57f1c5fdf999494fa368a4a8837affb9"
+            }
+          ],
+          "audio": true
+        }
+      ]
+    },
+    {
+      "title": "Live Video Effect",
+      "slug": "live-video-effect",
+      "category": "misc",
+      "date": "<p>04.15.2020</p>",
+      "extra": "Dino Dang, Fiona Li",
+      "media": [
+        {
+          "type": "video",
+          "id": "a7f558fd53d24415bf403f27fa29a613",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/etc/LiveVideoFilter_web_1920x1080_AACAudio_8076.mp4",
+              "mime": "video/mp4",
+              "id": "a7f558fd53d24415bf403f27fa29a613"
+            }
+          ],
+          "audio": true
+        }
+      ]
+    },
+    {
+      "title": "Live Video Effect - Lissajous Curve",
+      "slug": "Lissajous",
+      "category": "misc",
+      "date": "<p>02.21.2020</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "c7026cc771884316a8cb7f584e841680",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/etc/lissajous_web_1920x1080_AACAudio_8493.mp4",
+              "mime": "video/mp4",
+              "id": "c7026cc771884316a8cb7f584e841680"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    }
+  ]
+}
