@@ -2,12 +2,38 @@
   <div :class="classObject"
     class="app flex flex-column">
     <header class="heading pb-md md:pb-2xl">
+      <router-link to="/home">
       <h2
-        class="inline-block">Jacky Luk</h2>
+        class="inline-block">Jacky Luk</h2> </router-link>
       <div>
         <p>Graphic Designer</p>
       </div>
+
+      <router-link to="/information">
+        Info
+      </router-link>
     </header>
+
+    <!-- <ul>
+      <li 
+          v-for="link in $store.state.pages.home"
+          :key="link.url">
+        <img
+          :src="link.url"
+          class="media image"
+          alt="">
+      </li>
+
+    </ul> -->
+
+
+    <projects/>
+
+    <!-- <img
+    v-for=  in $store.state.pages.home"
+    :src="url"
+    class="media image"
+    alt=""> -->
 
     <section class="section pb-md md:pb-2xl">
       <header class="heading">
@@ -21,11 +47,11 @@
         </router-link>
       </header>
 
-      <div id="projects">
+      <!-- <div id="projects">
         <expandable :scroll-to="'#projects'">
           <router-view name="projects"/>
         </expandable>
-      </div>
+      </div> -->
     </section>
 
     <section class="section pb-md md:pb-2xl">
@@ -73,6 +99,7 @@
   import debounce from 'lodash/debounce'
   import EventBus from '@/event-bus'
   import Expandable from './components/Expandable.vue'
+  import Projects from './views/Projects.vue'
 
   export default {
     name: 'App',
@@ -84,7 +111,8 @@
     },
 
     components: {
-      Expandable
+      Expandable,
+      Projects
     },
 
     data () {

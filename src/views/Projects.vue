@@ -1,5 +1,16 @@
 <template>
-  <page :title="category.title">
+  <article>
+    <!-- <ul>
+          <li 
+              v-for="link in $store.state.pages.home"
+              :key="link.url">
+            <img
+              :src="link.url"
+              class="media image"
+              alt="">
+          </li>
+
+        </ul> -->
     <carousel
       ref="carousel"
       :project-count="projects.length"
@@ -15,12 +26,12 @@
           class="flex-auto flex-grow flex-no-shrink w-full md:min-w-220 pr-md">
           <div class="flex flex-wrap md:text-lg mb-1 md:mb-md">
             <h1 class="pr-sm flex-grow">{{ project.title }}</h1>
-            <div class="pr-sm flex-grow" v-if="project.extra">Teammates: {{ project.extra }}</div>
-            <h1 class="pr-md" v-html="project.date"/>
+            <!-- <div class="pr-sm flex-grow" v-if="project.extra">Teammates: {{ project.extra }}</div> -->
+            <!-- <h1 class="pr-md" v-html="project.date"/> -->
           </div>
-          <div
+          <!-- <div
             class="rich-text"
-            v-html="category.description"/>
+            v-html="category.description"/> -->
         </div>
       </div>
 
@@ -40,11 +51,11 @@
         </button>
       </nav>
     </footer>
-  </page>
+  </article>
 </template>
 
 <script>
-import Page from '../components/Page.vue'
+// import Page from '../components/Page.vue'
 import Carousel from '../components/Carousel.vue'
 
 export default {
@@ -57,7 +68,7 @@ export default {
   },
 
   components: {
-    Page,
+    // Page,
     Carousel
   },
 
@@ -107,21 +118,29 @@ export default {
   },
 
   created () {
-    this.fetchData()
+    // TODO ingoreing this cause calling fetchData twice
+    // this.fetchData()
   },
 
   methods: {
     async fetchData () {
       const categorySlug = this.$route.params.category_slug
       const projectSlug = this.$route.params.project_slug
-      const category = this.$store.getters.category(categorySlug)
 
-      if (!category) {
-        console.error('category not found')
-        return
-      }
+      // if (!category) {
+      //   console.error('category not found')
+      //   return
+      // }
 
       if (!projectSlug) {
+        if (categorySlug != "home") {
+          var category = this.$store.getters.category(categorySlug);
+        }
+        else {
+          var category = {
+            first : "first"
+          }
+        }
         this.$router.push({
           name: 'projects',
           params: {
@@ -140,7 +159,7 @@ export default {
         return
       }
 
-      this.category = category
+      // this.category = category
       this.projects = projects
       this.project = project
     },

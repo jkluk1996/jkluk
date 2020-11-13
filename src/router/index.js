@@ -7,6 +7,7 @@ import store from './../store/index.js'
 Vue.use(VueRouter)
 
 const routes = [
+  { path: '/', redirect: '/home/first', alias :'/test' },
   {
     path: '/information',
     name: 'information',
