@@ -25,9 +25,10 @@
         <div
           class="flex-auto flex-grow flex-no-shrink w-full md:min-w-220 pr-md">
           <div class="flex flex-wrap md:text-lg mb-1 md:mb-md">
-            <h1 class="pr-sm flex-grow">{{ project.title }}</h1>
+            <!-- <h1 class="pr-sm flex-grow">{{ project.title }}</h1> -->
             <!-- <div class="pr-sm flex-grow" v-if="project.extra">Teammates: {{ project.extra }}</div> -->
             <!-- <h1 class="pr-md" v-html="project.date"/> -->
+            <h1 class="pr-sm flex-grow">{{this.index + 1}}/{{projects.length}}</h1>
           </div>
           <!-- <div
             class="rich-text"
@@ -127,6 +128,7 @@ export default {
       const categorySlug = this.$route.params.category_slug
       const projectSlug = this.$route.params.project_slug
 
+       if (categorySlug == 'information') {return}
       // if (!category) {
       //   console.error('category not found')
       //   return
