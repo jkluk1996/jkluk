@@ -31,6 +31,14 @@
         Instagram
       </a>
 
+      <router-link
+        v-for="(category, i) in $store.state.pages.categories"
+        :to="{ name: 'projects', params: { category_slug: category.slug, project_slug: category.first } }"
+        :key="category.slug"
+        class="inline-block pr-sm">
+        <span class="link">{{ category.title }}</span><template v-if="i + 1 < $store.state.pages.categories.length">,</template>
+      </router-link>
+
 
       <aside id="options">
         <section>
@@ -40,17 +48,17 @@
             @click="changeType('A')">
             <span>A</span>
           </div>
-          <div class="false option"
+          <div class="option"
           v-bind:style="isSelected.Type.B"
           @click="changeType('B')">
             <span>B</span>
           </div>
-          <div class="false option"
+          <div class="option"
           v-bind:style="isSelected.Type.C"
           @click="changeType('C')">
             <span >C</span>
           </div>
-          <div class="false option"
+          <div class="option"
           v-bind:style="isSelected.Type.D"
           @click="changeType('D')">
             <span >D</span>
@@ -81,17 +89,21 @@
         </section>
         <section>
           <div class="label"> Dance </div>
-          <div class="selected option">
-            <span class="">N</span>
+          <div class="option"
+          v-bind:style="isSelected.Dance.N"
+          @click="changeDance('N')">
+            <span class="">?</span>
           </div>
-          <div class="false option">
+          <div class="option"
+          v-bind:style="isSelected.Dance.Y"
+          @click="changeDance('Y')">
             <span >Y</span>
           </div>
         </section>
       </aside>
     </header>
 
-    <section class="section pb-md md:pb-2xl">
+    <!-- <section class="section pb-md md:pb-2xl">
       <header class="heading">
         <router-link
           v-for="(category, i) in $store.state.pages.categories"
@@ -102,12 +114,7 @@
         </router-link>
       </header>
 
-      <!-- <div id="projects">
-        <expandable :scroll-to="'#projects'">
-          <router-view name="projects"/>
-        </expandable>
-      </div> -->
-    </section>
+    </section> -->
 
     <!-- <ul>
       <li 
@@ -129,44 +136,7 @@
     <projects v-else/>
 
 
-    <!-- <img
-    v-for=  in $store.state.pages.home"
-    :src="url"
-    class="media image"
-    alt=""> -->
 
-
-    <!-- <section class="section pb-md md:pb-2xl">
-      <header class="heading">
-        <router-link
-          v-if="$route.path !== '/information'"
-          to="/information"
-          class="inline-block pr-sm">
-          <span class="link">Information</span>,
-        </router-link>
-
-        <router-link
-          v-if="$route.path !== '/contact'"
-          to="/contact"
-          class="inline-block pr-sm">
-          <span class="link">Contact</span>,
-        </router-link>
-
-        <span class="link inline-block dance" 
-              v-on:click="isHidden = !isHidden"
-              @click="generate()"
-              v-bind:class="{ danceActive: isHidden }">
-            Dance
-        </span>
-
-      </header>
-
-      <div id="misc">
-        <expandable :scroll-to="'#misc'">
-          <router-view name="misc"/>
-        </expandable>
-      </div>
-    </section> -->
     <transition name="fade">
       <section class="section relative flex-1" v-if="isHidden">
         <footer class="inline-block bottomright" v-if="selectedImage">
@@ -212,28 +182,37 @@
         selectedImage: null,
         styleChosen: {
           color: '#212121',
+          backgroundColor: '#f1f1f1',
+          fontFamily: 'NeueHaasGrotesk',
           fontSize: '13px'
         },
-        selectedStyle: {
-          backgroundColor: '#212121',
-          color: '#f1f1f1'
-        },
-        unselectedStyle: {
-          backgroundColor: '#f1f1f1',
-          color: '#212121'
-        },
-        isSelected: {
-          Type: {
-            A: this.selectedStyle,
-            B: this.unselectedStyle,
-            C: this.unselectedStyle,
-            D: this.unselectedStyle
-          },
+        type: 'A',
+        dance: 'N',
+        isSelected : {
           Color : {
-            A: this.selectedStyle,
-            B: this.unselectedStyle,
-            C: this.unselectedStyle,
-            D: this.unselectedStyle
+            A: {
+              backgroundColor: "#212121",
+              color: "#f1f1f1"
+            },
+            B: null,
+            C: null,
+            D: null
+          },
+          Type : {
+            A: {
+              backgroundColor: "#212121",
+              color: "#f1f1f1"
+            },
+            B: null,
+            C: null,
+            D: null
+          },
+          Dance: {
+            N: {
+              backgroundColor: "#212121",
+              color: "#f1f1f1"
+            },
+            Y: null
           }
         },
         counter: 0
@@ -251,6 +230,15 @@
     async beforeCreate () {
       await this.$store.dispatch('getPages')
       this.$nextTick(() => { this.ready = true })
+      // this.isSelected.Type.A = this.selectedStyle();
+      // this.isSelected.Type.B = this.unselectedStyle();
+      // this.isSelected.Type.C = this.unselectedStyle();
+      // this.isSelected.Type.D = this.unselectedStyle();
+
+      // this.isSelected.Color.A = this.selectedStyle();
+      // this.isSelected.Color.B = this.unselectedStyle();
+      // this.isSelected.Color.C = this.unselectedStyle();
+      // this.isSelected.Color.D = this.unselectedStyle();
     },
 
     created () {
@@ -280,62 +268,97 @@
           this.selectedImage = this.incrementItem(this.images)
         }
       },
+      selectedStyle () {
+        return {
+          color: this.styleChosen.backgroundColor,
+          backgroundColor: this.styleChosen.color
+        }
+      },
+      unselectedStyle () {
+        return {
+          color: this.styleChosen.color,
+          backgroundColor:this.styleChosen.backgroundColor
+        }
+      },
       changeType (type) {
         if (type =="A") {
-          this.isSelected.Type.A = this.selectedStyle;
-          this.isSelected.Type.B = this.unselectedStyle;
-          this.isSelected.Type.C = this.unselectedStyle;
-          this.isSelected.Type.D = this.unselectedStyle;
+          this.type = 'A';
+          this.styleChosen.fontFamily = 'NeueHaasGrotesk';
+          this.isSelected.Type.A = this.selectedStyle();
+          this.isSelected.Type.B = this.unselectedStyle();
+          this.isSelected.Type.C = this.unselectedStyle();
+          this.isSelected.Type.D = this.unselectedStyle();
         }
         else if (type =="B") {
-          this.isSelected.Type.A = this.unselectedStyle;
-          this.isSelected.Type.B = this.selectedStyle;
-          this.isSelected.Type.C = this.unselectedStyle;
-          this.isSelected.Type.D = this.unselectedStyle;
+          this.type = 'B';
+          this.styleChosen.fontFamily = 'CourierPrime';
+          this.isSelected.Type.A = this.unselectedStyle();
+          this.isSelected.Type.B = this.selectedStyle();
+          this.isSelected.Type.C = this.unselectedStyle();
+          this.isSelected.Type.D = this.unselectedStyle();
         }
         else if (type =="C") {
-          this.isSelected.Type.A = this.unselectedStyle;
-          this.isSelected.Type.B = this.unselectedStyle;
-          this.isSelected.Type.C = this.selectedStyle;
-          this.isSelected.Type.D = this.unselectedStyle;
+          this.type = 'C';
+          this.styleChosen.fontFamily = 'Garamond';
+          this.isSelected.Type.A = this.unselectedStyle();
+          this.isSelected.Type.B = this.unselectedStyle();
+          this.isSelected.Type.C = this.selectedStyle();
+          this.isSelected.Type.D = this.unselectedStyle();
         }
         else {
-          this.isSelected.Type.A = this.unselectedStyle;
-          this.isSelected.Type.B = this.unselectedStyle;
-          this.isSelected.Type.C = this.unselectedStyle;
-          this.isSelected.Type.D = this.selectedStyle;
+          this.type = 'D';
+          this.isSelected.Type.A = this.unselectedStyle();
+          this.isSelected.Type.B = this.unselectedStyle();
+          this.isSelected.Type.C = this.unselectedStyle();
+          this.isSelected.Type.D = this.selectedStyle();
         }
       },
       changeColor (color) {
         if (color =="A") {
           this.styleChosen.color = "#212121";
-          this.selectedStyle.backgroundColor = this.styleChosen.color;
-          this.isSelected.Color.A = this.selectedStyle;
-          this.isSelected.Color.B = this.unselectedStyle;
-          this.isSelected.Color.C = this.unselectedStyle;
-          this.isSelected.Color.D = this.unselectedStyle;
+          this.styleChosen.backgroundColor = "#f1f1f1";
+          this.isSelected.Color.A = this.selectedStyle();
+          this.isSelected.Color.B = this.unselectedStyle();
+          this.isSelected.Color.C = this.unselectedStyle();
+          this.isSelected.Color.D = this.unselectedStyle();
         }
         else if (color =="B") {
-          this.isSelected.Color.A = this.unselectedStyle;
-          this.isSelected.Color.B = this.selectedStyle;
-          this.isSelected.Color.C = this.unselectedStyle;
-          this.isSelected.Color.D = this.unselectedStyle;
+          this.styleChosen.color = "#f1f1f1";
+          this.styleChosen.backgroundColor = "#212121";
+          this.isSelected.Color.A = this.unselectedStyle();
+          this.isSelected.Color.B = this.selectedStyle();
+          this.isSelected.Color.C = this.unselectedStyle();
+          this.isSelected.Color.D = this.unselectedStyle();
         }
         else if (color =="C") {
-          this.styleChosen.color = "red";
-          this.selectedStyle.backgroundColor = this.styleChosen.color;
-          this.isSelected.Color.A = this.unselectedStyle;
-          this.isSelected.Color.B = this.unselectedStyle;
-          this.isSelected.Color.C = this.selectedStyle;
-          this.isSelected.Color.D = this.unselectedStyle;
+          this.styleChosen.color = "#f45b5b";
+          this.styleChosen.backgroundColor = "#f1f1f1";
+          this.isSelected.Color.A = this.unselectedStyle();
+          this.isSelected.Color.B = this.unselectedStyle();
+          this.isSelected.Color.C = this.selectedStyle();
+          this.isSelected.Color.D = this.unselectedStyle();
         }
         else {
-          this.isSelected.Color.A = this.unselectedStyle;
-          this.isSelected.Color.B = this.unselectedStyle;
-          this.isSelected.Color.C = this.unselectedStyle;
-          this.isSelected.Color.D = this.selectedStyle;
+          this.isSelected.Color.A = this.unselectedStyle();
+          this.isSelected.Color.B = this.unselectedStyle();
+          this.isSelected.Color.C = this.unselectedStyle();
+          this.isSelected.Color.D = this.selectedStyle();
         }
-      }
+        this.changeType(this.type)
+        this.changeDance(this.dance)
+      },
+      changeDance (dance) {
+        if (dance =="N") {
+          this.dance = 'N';
+          this.isSelected.Dance.N = this.selectedStyle();
+          this.isSelected.Dance.Y = this.unselectedStyle();
+        }
+        else {
+          this.dance = 'Y';
+          this.isSelected.Dance.N = this.unselectedStyle();
+          this.isSelected.Dance.Y = this.selectedStyle();
+        }
+      },
     }
   }
 </script>
