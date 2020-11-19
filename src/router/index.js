@@ -7,7 +7,6 @@ import store from './../store/index.js'
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', redirect: '/home/first' },
   {
     path: '/information',
     name: 'information',

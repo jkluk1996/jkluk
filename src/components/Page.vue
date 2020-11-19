@@ -4,7 +4,7 @@
       ref="header"
       class="heading flex justify-between mt-xs pt-xs pb-md md:mt-md md:pt-md md:pb-xl">
       <div class="flex-1">
-        <!-- <h2 class="inline-block">{{ title }}</h2> -->
+        <h2 class="inline-block">{{ title }}</h2>
       </div>
 
       <div class="flex-no-grow">

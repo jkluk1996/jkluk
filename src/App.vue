@@ -2,13 +2,17 @@
   <div :class="classObject"
     class="app flex flex-column"
     v-bind:style="styleChosen">
-    <header class="heading pb-md md:pb-2xl">
-      <router-link to="/home">
-      <h2
-        class="inline-block">Jacky Luk</h2> </router-link>
-      <div>
+    <header class="heading pb-sm flex">
+      <div class="flex-grow">
+      <p class="inline-block">
+        <router-link to="/">
+          <h2 class="link">Jacky Luk</h2>
+        </router-link> &nbsp;
+        is a Graphic Designer &#38; Illustrator based in Vancouver, BC. Their work includes
+      &nbsp;
+      <!-- <div>
         <p>Graphic Designer &#38; Illustrator</p>
-      </div>
+      </div> -->
       <!-- <a
         :href="link.url"
         class="link inline-block"
@@ -16,33 +20,37 @@
         rel="noopener">
         {{ Contact }}
       </a> -->
-      <a
-        href="mailto:hi@jackyl.uk"
-        class="link inline-block"
-        target="_blank"
-        rel="noopener">
-        Contact
-      </a>
-      <a
-        href="mailto:hi@jackyl.uk"
-        class="link inline-block"
-        target="_blank"
-        rel="noopener">
-        Instagram
-      </a>
 
       <router-link
         v-for="(category, i) in $store.state.pages.categories"
         :to="{ name: 'projects', params: { category_slug: category.slug, project_slug: category.first } }"
         :key="category.slug"
         class="inline-block pr-sm">
-        <span class="link">{{ category.title }}</span><template v-if="i + 1 < $store.state.pages.categories.length">,</template>
-      </router-link>
+        <template v-if="i + 1 == $store.state.pages.categories.length">and</template> &nbsp;
+        <span class="link">{{ category.title }}</span>
+        <template v-if="i + 1 < $store.state.pages.categories.length">,</template>
+        <template v-else>.</template>
+      </router-link>They can be contacted via
+        <a href="mailto:hi@jackyl.uk"
+          class="link inline-block"
+          target="_blank"
+          rel="noopener">
+            Email
+        </a> or 
+        <a
+          href="mailto:hi@jackyl.uk"
+          class="link inline-block"
+          target="_blank"
+          rel="noopener">
+          Instagram
+        </a>.
+      </p>
+  </div>
 
 
       <aside id="options">
         <section>
-          <div class="label"> Font </div>
+          <div class="label"> Typeface </div>
           <div class="option"
             v-bind:style="isSelected.Type.A"
             @click="changeType('A')">
@@ -89,16 +97,16 @@
         </section>
         <section>
           <div class="label"> Dance </div>
-          <div class="option"
+          <div class="danceOption"
           v-bind:style="isSelected.Dance.N"
-          @click="changeDance('N')">
-            <span class="">?</span>
+          @click="changeDance()">
+            <span style="padding-bottom: 12px;">☺️</span>
           </div>
-          <div class="option"
+          <!-- <div class="option"
           v-bind:style="isSelected.Dance.Y"
           @click="changeDance('Y')">
             <span >Y</span>
-          </div>
+          </div> -->
         </section>
       </aside>
     </header>
@@ -130,28 +138,28 @@
 
 
     <!-- <projects v-if="$route.params.category_slug !== category.slug"/> -->
-    <h1 v-if="$route.params.category_slug == 'information'"><router-view name="misc"/></h1> 
-    <!-- <div v-else>test</div> -->
-    <!-- <projects /> -->
-    <projects v-else/>
+    <!-- <projects/> -->
+    <div id="projects">
+        <expandable :scroll-to="'#projects'">
+          <router-view name="projects"/>
+        </expandable>
+      </div>
 
-
-
-    <transition name="fade">
+    <!-- <transition name="fade">
       <section class="section relative flex-1" v-if="isHidden">
         <footer class="inline-block bottomright" v-if="selectedImage">
           <img :src="selectedImage" class="fitimage">
         </footer>
       </section>
-  </transition>
+  </transition> -->
   </div>
 </template>
 
 <script>
   import debounce from 'lodash/debounce'
   import EventBus from '@/event-bus'
-  // import Expandable from './components/Expandable.vue'
-  import Projects from './views/Projects.vue'
+  import Expandable from './components/Expandable.vue'
+  // import Projects from './views/Projects.vue'
   // import Info from './components/Info.vue'
 
   export default {
@@ -164,9 +172,9 @@
     },
 
     components: {
-      // Expandable,
+      Expandable,
       // Info,
-      Projects
+      // Projects
     },
 
     data () {
@@ -184,10 +192,10 @@
           color: '#212121',
           backgroundColor: '#f1f1f1',
           fontFamily: 'NeueHaasGrotesk',
-          fontSize: '13px'
+          fontSize: '12px'
         },
         type: 'A',
-        dance: 'N',
+        dance: false,
         isSelected : {
           Color : {
             A: {
@@ -209,8 +217,8 @@
           },
           Dance: {
             N: {
-              backgroundColor: "#212121",
-              color: "#f1f1f1"
+              backgroundColor: "#f1f1f1",
+              color: "#212121"
             },
             Y: null
           }
@@ -348,15 +356,14 @@
         this.changeDance(this.dance)
       },
       changeDance (dance) {
-        if (dance =="N") {
-          this.dance = 'N';
-          this.isSelected.Dance.N = this.selectedStyle();
-          this.isSelected.Dance.Y = this.unselectedStyle();
+        if (this.dance) {
+          this.dance = false;
+          this.isSelected.Dance.N = this.unselectedStyle();
         }
         else {
-          this.dance = 'Y';
-          this.isSelected.Dance.N = this.unselectedStyle();
-          this.isSelected.Dance.Y = this.selectedStyle();
+          this.dance = true;
+          this.isSelected.Dance.N = this.selectedStyle();
+          // this.isSelected.Dance.Y = this.selectedStyle();
         }
       },
     }

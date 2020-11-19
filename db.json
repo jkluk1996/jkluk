@@ -7,13 +7,13 @@
          "description" : "<p>Posters designed for a range of musicians aiming to create a visual representation of the artist’s music. As this project continued, this went on to include television series and movies. One of the main challenges of this project involved maintaining a consistent visual language between what the artist’s already established and the poster. This involved researching said visual language in their music videos and album cover designs, the direction they intended their music to go, and the artist’s overall ethos. The posters typically incorporated an illustrative quality whether that be with hand drawn typography or crudely drawn smiley faces. The intent of these hand drawn elements was to bring in a personal interpretation of the musicians visual language, and more importantly, create a design which maintains a sense of fun.</p>"
       },
       {
-         "title":"Animation",
+         "title":"Animations",
          "slug":"animation",
          "first":"brokenbottle",
          "description": "A series of short videos created in Maya or done using frame-by-frame animation in Photoshop focused on exploring different visual styles. A different song was chosen to be the theme of each animation with the goal of creating a visual representation of the chosen song. To do this each animation was created with a focus on expression rather than the realism some other works may pursue, curating the overall tone of the image through color, light, and movement. The animation for <i>Hurry Home</i> is a part of a larger unfinished series focused on dreamlike imagery and graphic narratives."
       },
       {
-         "title":"Illustration",
+         "title":"Illustrations",
          "slug":"illustration",
          "first":"toronto-raptors",
          "description": "<p>A recent illustration series on select NBA teams. Also included is an older illustration series aiming to create a visual representation of selected holidays and other seasonal events. Exploration and experimentation played a large role in this project, with the goal being to gain experience in the Adobe suite and to develop a sense of different illustration processes. For example, a majority of the animated illustrations were done through hand drawn frame by frame animation inspired by the works of Canadian animator, Norman Mclaren.</p>"
@@ -25,7 +25,7 @@
          "description": "<p>Photographs taken across Canada, Japan, and Hong Kong made with a mixture of analog and digital processes, and edited digitally using Photoshop and Lightroom. Currently focused on a series of diptychs that explores the connection of images through color, composition, lighting, and feeling.</p>"
       },
       {
-         "title":"Misc.",
+         "title":"Other Stuff",
          "slug":"misc",
          "first":"to-carve-a-smile",
          "description": "<p>Selected projects that don’t fall under the other categories. The short film, <i>To Carve a Smile</i> won Digital Health Circle’s Help My Grandma Day Contest, a digital storytelling contest aimed at building community through intergenerational storytelling. Live video effects created using Max software developed by Cycling ‘74.</p>"

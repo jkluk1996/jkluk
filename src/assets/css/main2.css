@@ -306,7 +306,7 @@ h1,span {
 
 @media (min-width:768px) {
     .heading {
-        font-size: 2rem
+        font-size: 5rem
     }
 }
 
@@ -379,7 +379,7 @@ h1,span {
 
 @media (min-width:768px) {
     .link {
-        border-bottom-width: 5.4px
+        border-bottom-width: 3.4px
     }
 }
 
@@ -514,11 +514,15 @@ h1,span {
 }
 
 .pr-sm {
-    padding-right: 1.05rem
+    padding-right: 0.85rem
 }
 
 .pr-md {
     padding-right: 1.875rem
+}
+
+.pb-sm {
+    padding-bottom: 1.05rem
 }
 
 .pb-md {
@@ -825,6 +829,31 @@ section {
 .label {
     width: 100%;
     margin-bottom: 0.5rem;
+}
+
+.danceOption {
+    margin-right: 0.5rem;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 52px;
+    overflow: hidden;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
 }
 
 
