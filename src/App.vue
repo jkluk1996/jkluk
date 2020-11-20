@@ -2,25 +2,13 @@
   <div :class="classObject"
     class="app flex flex-column"
     v-bind:style="styleChosen">
-    <header class="heading pb-sm flex">
-      <div class="flex-grow">
+    <header class="heading pb-lg flex">
+      <div class="flex-grow pr-md">
       <p class="inline-block">
         <router-link to="/">
           <h2 class="link">Jacky Luk</h2>
-        </router-link> &nbsp;
-        is a Graphic Designer &#38; Illustrator based in Vancouver, BC. Their work includes
+        </router-link> is a Graphic Designer and Illustrator based in Vancouver, BC. My work includes
       &nbsp;
-      <!-- <div>
-        <p>Graphic Designer &#38; Illustrator</p>
-      </div> -->
-      <!-- <a
-        :href="link.url"
-        class="link inline-block"
-        target="_blank"
-        rel="noopener">
-        {{ Contact }}
-      </a> -->
-
       <router-link
         v-for="(category, i) in $store.state.pages.categories"
         :to="{ name: 'projects', params: { category_slug: category.slug, project_slug: category.first } }"
@@ -30,46 +18,51 @@
         <span class="link">{{ category.title }}</span>
         <template v-if="i + 1 < $store.state.pages.categories.length">,</template>
         <template v-else>.</template>
-      </router-link>They can be contacted via
+      </router-link>
+      </p>
+      <p><br> 
+
+      Get in touch with me at
         <a href="mailto:hi@jackyl.uk"
           class="link inline-block"
           target="_blank"
           rel="noopener">
-            Email
-        </a> or 
+            hi@jackyl.uk
+        </a> or on
         <a
           href="mailto:hi@jackyl.uk"
           class="link inline-block"
           target="_blank"
           rel="noopener">
           Instagram
-        </a>.
+        </a>
       </p>
-  </div>
-
+    </div>
 
       <aside id="options">
         <section>
-          <div class="label"> Typeface </div>
-          <div class="option"
-            v-bind:style="isSelected.Type.A"
-            @click="changeType('A')">
-            <span>A</span>
-          </div>
-          <div class="option"
-          v-bind:style="isSelected.Type.B"
-          @click="changeType('B')">
-            <span>B</span>
-          </div>
-          <div class="option"
-          v-bind:style="isSelected.Type.C"
-          @click="changeType('C')">
-            <span >C</span>
-          </div>
-          <div class="option"
-          v-bind:style="isSelected.Type.D"
-          @click="changeType('D')">
-            <span >D</span>
+          <div class="label"> Size </div>
+          <div class="flex">
+            <div class="option"
+              v-bind:style="isSelected.Type.A"
+              @click="changeType('A')">
+              <span class="optionLetter">A</span>
+            </div>
+            <div class="option"
+            v-bind:style="isSelected.Type.B"
+            @click="changeType('B')">
+              <span class="optionLetter">B</span>
+            </div>
+            <div class="option"
+            v-bind:style="isSelected.Type.C"
+            @click="changeType('C')">
+              <span class="optionLetter">C</span>
+            </div>
+            <div class="option"
+            v-bind:style="isSelected.Type.D"
+            @click="changeType('D')">
+              <span class="optionLetter">D</span>
+            </div>
           </div>
         </section>
         <section>
@@ -77,22 +70,22 @@
           <div class="option"
             v-bind:style="isSelected.Color.A"
             @click="changeColor('A')">
-            <span class="color color-black">B</span>
+            <span class="optionLetter">B</span>
           </div>
           <div class="option"
             v-bind:style="isSelected.Color.B"
             @click="changeColor('B')">
-            <span class="color color-black">W</span>
+            <span class="optionLetter">W</span>
           </div>
           <div class="option"
             v-bind:style="isSelected.Color.C"
             @click="changeColor('C')">
-            <span class="color color-red">R</span>
+            <span class="optionLetter">R</span>
           </div>
           <div class="option"
             v-bind:style="isSelected.Color.D"
             @click="changeColor('D')">
-            <span class="color color-black">?</span>
+            <span class="optionLetter">?</span>
           </div>
         </section>
         <section>
@@ -100,7 +93,7 @@
           <div class="danceOption"
           v-bind:style="isSelected.Dance.N"
           @click="changeDance()">
-            <span style="padding-bottom: 12px;">☺️</span>
+            <span style="padding-right: 1px; padding-top: 1px;">☺️</span>
           </div>
           <!-- <div class="option"
           v-bind:style="isSelected.Dance.Y"
@@ -109,6 +102,7 @@
           </div> -->
         </section>
       </aside>
+
     </header>
 
     <!-- <section class="section pb-md md:pb-2xl">
@@ -152,6 +146,11 @@
         </footer>
       </section>
   </transition> -->
+  <transition name="fade">
+        <div v-if="this.dance" class="">
+          <img :src="test" class="fitimage">
+        </div>
+      </transition>
   </div>
 </template>
 
@@ -181,6 +180,7 @@
       return {
         ready: false,
         isHidden: false,
+        test: 'https://jkluk.blob.core.windows.net/dancers/dance1.gif',
         images: [
           'https://jkluk.blob.core.windows.net/dancers/dance1.gif',
           'https://jkluk.blob.core.windows.net/dancers/dance2.gif',
@@ -191,8 +191,7 @@
         styleChosen: {
           color: '#212121',
           backgroundColor: '#f1f1f1',
-          fontFamily: 'NeueHaasGrotesk',
-          fontSize: '12px'
+          fontSize: '5rem'
         },
         type: 'A',
         dance: false,
@@ -291,7 +290,7 @@
       changeType (type) {
         if (type =="A") {
           this.type = 'A';
-          this.styleChosen.fontFamily = 'NeueHaasGrotesk';
+          this.styleChosen.fontSize = '5rem';
           this.isSelected.Type.A = this.selectedStyle();
           this.isSelected.Type.B = this.unselectedStyle();
           this.isSelected.Type.C = this.unselectedStyle();
@@ -299,7 +298,7 @@
         }
         else if (type =="B") {
           this.type = 'B';
-          this.styleChosen.fontFamily = 'CourierPrime';
+          this.styleChosen.fontSize = '6rem';
           this.isSelected.Type.A = this.unselectedStyle();
           this.isSelected.Type.B = this.selectedStyle();
           this.isSelected.Type.C = this.unselectedStyle();
@@ -307,7 +306,7 @@
         }
         else if (type =="C") {
           this.type = 'C';
-          this.styleChosen.fontFamily = 'Garamond';
+          this.styleChosen.fontSize = '7rem';
           this.isSelected.Type.A = this.unselectedStyle();
           this.isSelected.Type.B = this.unselectedStyle();
           this.isSelected.Type.C = this.selectedStyle();
@@ -315,6 +314,7 @@
         }
         else {
           this.type = 'D';
+          this.styleChosen.fontSize = '7.5rem';
           this.isSelected.Type.A = this.unselectedStyle();
           this.isSelected.Type.B = this.unselectedStyle();
           this.isSelected.Type.C = this.unselectedStyle();
@@ -353,7 +353,17 @@
           this.isSelected.Color.D = this.selectedStyle();
         }
         this.changeType(this.type)
-        this.changeDance(this.dance)
+        this.changeDanceStatic(this.dance)
+      },
+      changeDanceStatic (dance) {
+        if (this.dance) {
+          this.dance = true;
+          this.isSelected.Dance.N = this.selectedStyle();
+        }
+        else {
+          this.dance = false;
+          this.isSelected.Dance.N = this.unselectedStyle();
+        }
       },
       changeDance (dance) {
         if (this.dance) {
@@ -363,7 +373,6 @@
         else {
           this.dance = true;
           this.isSelected.Dance.N = this.selectedStyle();
-          // this.isSelected.Dance.Y = this.selectedStyle();
         }
       },
     }

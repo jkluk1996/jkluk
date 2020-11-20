@@ -24,33 +24,33 @@
       <div class="flex flex-wrap flex-auto">
         <div
           class="flex-auto flex-grow flex-no-shrink w-full md:min-w-220 pr-md">
-          <div class="flex flex-wrap md:text-lg mb-1 md:mb-md">
-            <!-- <h1 class="pr-sm flex-grow">{{ project.title }}</h1> -->
+          <div class="flex flex-wrap mb-1 md:mb-md">
             <!-- <h1 class="pr-md" v-html="project.date"/> -->
             <h1 class="pr-sm flex-grow">{{this.index + 1}}/{{projects.length}}</h1>
-            <div class="pr-sm flex-grow" v-if="project.extra">Teammates: {{ project.extra }}</div>
+            <h1 class="pr-sm flex-grow">{{ project.title }}</h1>
+            <div class="pr-sm flex-grow" v-if="project.extra">Team: {{ project.extra }}</div>
+            <nav
+              v-if="!single"
+              class="flex-no-grow flex-no-shrink">
+              <button
+                class="-mt-4 md:-mt-12 link lineheight-sm mr-sm md:mr-md"
+                @click="handlePrevious">
+                <span>&lt;</span>
+              </button>
+
+              <button
+                class="-mt-4 ml-sm md:-mt-12 link lineheight-sm"
+                @click="handleNext">
+                <span>&gt;</span>
+              </button>
+            </nav>
           </div>
-          <div
+          <!-- <div
             class="rich-text"
-            v-html="category.description"/>
+            v-html="category.description"/> -->
         </div>
       </div>
 
-      <nav
-        v-if="!single"
-        class="flex-no-grow flex-no-shrink">
-        <button
-          class="-mt-4 text-lg md:-mt-12 md:text-xl link lineheight-sm mr-sm md:mr-md"
-          @click="handlePrevious">
-          <span>&lt;</span>
-        </button>
-
-        <button
-          class="-mt-4 ml-sm text-lg md:-mt-12 md:text-xl link lineheight-sm"
-          @click="handleNext">
-          <span>&gt;</span>
-        </button>
-      </nav>
     </footer>
   </page>
 </template>
