@@ -98,7 +98,23 @@
           <div class="danceOption"
           v-bind:style="isSelected.Dance.N"
           @click="changeDance()">
-            <span style="padding-bottom: 1px;">☺️</span>
+            <span style="padding-bottom: 1px; padding-top: 17px;">
+              <svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg"
+              v-bind:style="isSelected.Dance.svgStyle">
+                <g id="">
+                  <path d="M25.7,25.8c-2.9,0-5.3,2.4-5.3,5.3c0,2.9,2.4,5.3,5.3,5.3c2.9,0,5.3-2.4,5.3-5.3
+                    C30.9,28.2,28.6,25.8,25.7,25.8z M24.2,33.4c-1.7,0-3.1-1.4-3.1-3.1c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1
+                    C27.3,32,25.9,33.4,24.2,33.4z M27.9,34.5c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1c0.6,0,1.1,0.5,1.1,1.1
+                    C29,34,28.5,34.5,27.9,34.5z"/>
+                  <path d="M47,25.8c-2.9,0-5.3,2.4-5.3,5.3c0,2.9,2.4,5.3,5.3,5.3c2.9,0,5.3-2.4,5.3-5.3C52.3,28.2,49.9,25.8,47,25.8z
+                     M45.5,33.4c-1.7,0-3.1-1.4-3.1-3.1c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1C48.6,32,47.2,33.4,45.5,33.4z M49.2,34.5
+                    c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1c0.6,0,1.1,0.5,1.1,1.1C50.3,34,49.8,34.5,49.2,34.5z"/>
+                  <ellipse  cx="36.3" cy="36" rx="23" ry="23" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                  <path d="M36.4,41.1c0,0,10.5,3.2,0,5.6c0,0,10.5,3,0,4.9" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                </g>
+              </svg>
+
+            </span>
           </div>
         </section>
       </aside>
@@ -167,7 +183,10 @@
               backgroundColor: "#f1f1f1",
               color: "#212121"
             },
-            Y: null
+            svgStyle: {
+              stroke: '#212121',
+              fill: '#212121'
+            }
           }
         },
         counter: 0
@@ -220,12 +239,25 @@
           backgroundColor: this.styleChosen.color
         }
       },
+      selectedStyleSVG () {
+        return {
+          stroke: this.styleChosen.backgroundColor,
+          fill: this.styleChosen.backgroundColor
+        }
+      },
       unselectedStyle () {
         return {
           color: this.styleChosen.color,
           backgroundColor:this.styleChosen.backgroundColor
         }
       },
+      unselectedStyleSVG () {
+        return {
+          stroke: this.styleChosen.color,
+          fill: this.styleChosen.color
+        }
+      },
+
       changeType (type) {
         if (type =="A") {
           this.type = 'A';
@@ -301,21 +333,25 @@
           this.dance = true;
           this.setDance(this.styleChosen.color)
           this.isSelected.Dance.N = this.selectedStyle();
+          this.isSelected.Dance.svgStyle = this.selectedStyleSVG();
         }
         else {
           this.dance = false;
           this.isSelected.Dance.N = this.unselectedStyle();
+          this.isSelected.Dance.svgStyle = this.unselectedStyleSVG();
         }
       },
       changeDance (dance) {
         if (this.dance) {
           this.dance = false;
           this.isSelected.Dance.N = this.unselectedStyle();
+          this.isSelected.Dance.svgStyle = this.unselectedStyleSVG();
         }
         else {
           this.dance = true;
           this.setDance(this.styleChosen.color);
           this.isSelected.Dance.N = this.selectedStyle();
+          this.isSelected.Dance.svgStyle = this.selectedStyleSVG();
         }
       },
       setDance(color) {
