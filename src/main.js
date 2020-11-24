@@ -1,4 +1,4 @@
-import '@/assets/css/main2.css'
+import '@/assets/css/main.css'
 
 import Vue from 'vue'
 import VueAnalytics from 'vue-analytics'

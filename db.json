@@ -2006,5 +2006,11 @@
         }
       ]
     }
+  ],
+  "dancers" : [
+      "https://jkluk.blob.core.windows.net/dancers/dance-black.gif",
+      "https://jkluk.blob.core.windows.net/dancers/dance-white.gif",
+      "https://jkluk.blob.core.windows.net/dancers/dance-red.gif",
+      "https://jkluk.blob.core.windows.net/dancers/dance-violet.gif"
   ]
 }

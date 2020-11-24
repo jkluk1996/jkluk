@@ -100,62 +100,15 @@
           @click="changeDance()">
             <span style="padding-bottom: 1px;">☺️</span>
           </div>
-          <!-- <div class="option"
-          v-bind:style="isSelected.Dance.Y"
-          @click="changeDance('Y')">
-            <span >Y</span>
-          </div> -->
         </section>
       </aside>
-
     </header>
 
-    <!-- <section class="section pb-md md:pb-2xl">
-      <header class="heading">
-        <router-link
-          v-for="(category, i) in $store.state.pages.categories"
-          :to="{ name: 'projects', params: { category_slug: category.slug, project_slug: category.first } }"
-          :key="category.slug"
-          class="inline-block pr-sm">
-          <span class="link">{{ category.title }}</span><template v-if="i + 1 < $store.state.pages.categories.length">,</template>
-        </router-link>
-      </header>
-
-    </section> -->
-
-    <!-- <ul>
-      <li 
-          v-for="link in $store.state.pages.home"
-          :key="link.url">
-        <img
-          :src="link.url"
-          class="media image"
-          alt="">
-      </li>
-
-    </ul> -->
-
-
-    <!-- <projects v-if="$route.params.category_slug !== category.slug"/> -->
-    <!-- <projects/> -->
     <div id="projects">
-        <expandable :scroll-to="'#projects'">
-          <router-view name="projects"/>
-        </expandable>
-      </div>
-
-    <!-- <transition name="fade">
-      <section class="section relative flex-1" v-if="isHidden">
-        <footer class="inline-block bottomright" v-if="selectedImage">
-          <img :src="selectedImage" class="fitimage">
-        </footer>
-      </section>
-  </transition> -->
-  <!-- <transition name="fade">
-    <div v-if="this.dance" class="">
-      <img :src="test" class="fitimage">
+      <expandable :scroll-to="'#projects'">
+        <router-view name="projects"/>
+      </expandable>
     </div>
-  </transition> -->
   </div>
 </template>
 
@@ -163,8 +116,6 @@
   import debounce from 'lodash/debounce'
   import EventBus from '@/event-bus'
   import Expandable from './components/Expandable.vue'
-  // import Projects from './views/Projects.vue'
-  // import Info from './components/Info.vue'
 
   export default {
     name: 'App',
@@ -176,31 +127,18 @@
     },
 
     components: {
-      Expandable,
-      // Info,
-      // Projects
+      Expandable
     },
 
     data () {
       return {
         ready: false,
-        isHidden: false,
         danceimage: "https://jkluk.blob.core.windows.net/dancers/dance-black.gif",
-        images: [
-          'https://jkluk.blob.core.windows.net/dancers/dance-black.gif',
-          'https://jkluk.blob.core.windows.net/dancers/dance-white.gif',
-          'https://jkluk.blob.core.windows.net/dancers/dance-red.gif',
-          'https://jkluk.blob.core.windows.net/dancers/dance-violet.gif'
-        ],
-        imageIndex: -1,
-        selectedImage: null,
+        images: null,
         styleChosen: {
           color: '#212121',
           backgroundColor: '#f1f1f1',
           fontSize: '5rem'
-        },
-        danceStyle: {
-          'mix-blend-mode': 'darken'
         },
         // root: null,
         type: 'A',
@@ -251,21 +189,13 @@
     async beforeCreate () {
       await this.$store.dispatch('getPages')
       this.$nextTick(() => { this.ready = true })
-      // this.isSelected.Type.A = this.selectedStyle();
-      // this.isSelected.Type.B = this.unselectedStyle();
-      // this.isSelected.Type.C = this.unselectedStyle();
-      // this.isSelected.Type.D = this.unselectedStyle();
-
-      // this.isSelected.Color.A = this.selectedStyle();
-      // this.isSelected.Color.B = this.unselectedStyle();
-      // this.isSelected.Color.C = this.unselectedStyle();
-      // this.isSelected.Color.D = this.unselectedStyle();
     },
 
     created () {
       window.addEventListener('resize', this.resize)
       window.addEventListener('orientationchange', this.resize)
       this.resize()
+      this.fetchData()
     },
 
     destroyed () {
@@ -274,21 +204,16 @@
     },
 
     methods: {
+      async fetchData () {
+        var category = this.$store.state.pages.dancers;
+        this.images = category;
+      },
       resize: debounce(function () {
         EventBus.$emit('resize', {
           width: window.innerWidth,
           height: window.innerHeight
         })
       }, 250),
-      incrementItem (items) {
-        this.imageIndex = this.imageIndex + 1
-        return items[((this.imageIndex) % items.length)];
-      },
-      generate () {
-        if (this.isHidden == true) {
-          this.selectedImage = this.incrementItem(this.images)
-        }
-      },
       selectedStyle () {
         return {
           color: this.styleChosen.backgroundColor,
@@ -309,7 +234,6 @@
           this.isSelected.Type.B = this.unselectedStyle();
           this.isSelected.Type.C = this.unselectedStyle();
           this.isSelected.Type.D = this.unselectedStyle();
-          // this.root.style.setProperty("font-size", ".2rem");
         }
         else if (type =="B") {
           this.type = 'B';
@@ -318,7 +242,6 @@
           this.isSelected.Type.B = this.selectedStyle();
           this.isSelected.Type.C = this.unselectedStyle();
           this.isSelected.Type.D = this.unselectedStyle();
-          // this.root.style.setProperty("font-size", "6rem");
         }
         else if (type =="C") {
           this.type = 'C';
@@ -327,7 +250,6 @@
           this.isSelected.Type.B = this.unselectedStyle();
           this.isSelected.Type.C = this.selectedStyle();
           this.isSelected.Type.D = this.unselectedStyle();
-          // this.root.style.setProperty("font-size", "7rem");
         }
         else {
           this.type = 'D';
@@ -336,55 +258,36 @@
           this.isSelected.Type.B = this.unselectedStyle();
           this.isSelected.Type.C = this.unselectedStyle();
           this.isSelected.Type.D = this.selectedStyle();
-          // this.root.style.setProperty("font-size", "8rem");
         }
       },
       changeColor (color) {
         if (color =="A") {
           this.styleChosen.color = "#212121";
           this.styleChosen.backgroundColor = "#f1f1f1";
-          // this.danceStyle = {
-          //   'mix-blend-mode' : 'darken'
-          // }
           this.isSelected.Color.A = this.selectedStyle();
           this.isSelected.Color.B = this.unselectedStyle();
           this.isSelected.Color.C = this.unselectedStyle();
           this.isSelected.Color.D = this.unselectedStyle();
-          // this.root.style.setProperty("color", "#212121");
-          // this.root.style.setProperty("background-color", "#f1f1f1");
         }
         else if (color =="B") {
           this.styleChosen.color = "#f1f1f1";
           this.styleChosen.backgroundColor = "#212121";
-          // this.danceStyle = {
-          //   'mix-blend-mode' : 'lighten'
-          // }
           this.isSelected.Color.A = this.unselectedStyle();
           this.isSelected.Color.B = this.selectedStyle();
           this.isSelected.Color.C = this.unselectedStyle();
           this.isSelected.Color.D = this.unselectedStyle();
-          // this.root.style.setProperty("color", "#f1f1f1");
-          // this.root.style.setProperty("background-color", "#212121");
         }
         else if (color =="C") {
           this.styleChosen.color = "#f45b5b";
           this.styleChosen.backgroundColor = "#f1f1f1";
-          // this.danceStyle = {
-          //   'mix-blend-mode' : 'darken'
-          // }
           this.isSelected.Color.A = this.unselectedStyle();
           this.isSelected.Color.B = this.unselectedStyle();
           this.isSelected.Color.C = this.selectedStyle();
           this.isSelected.Color.D = this.unselectedStyle();
-          // this.root.style.setProperty("background-color", "#f1f1f1");
-          // this.root.style.setProperty("color", "#f45b5b");
         }
         else {
-          // this.styleChosen.color = "#54d98f";
-          // this.styleChosen.backgroundColor = "#a952ff";
           this.styleChosen.color = "#b6a2f6";
           this.styleChosen.backgroundColor = "#bce8c4";
-          // this.styleChosen.backgroundColor = "#212121";
           this.isSelected.Color.A = this.unselectedStyle();
           this.isSelected.Color.B = this.unselectedStyle();
           this.isSelected.Color.C = this.unselectedStyle();
@@ -416,6 +319,8 @@
         }
       },
       setDance(color) {
+        var category = this.$store.state.pages.dancers;
+        this.images = category;
         if (color == '#212121') {
           this.danceimage = this.images[0];
         }

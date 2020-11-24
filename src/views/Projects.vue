@@ -1,16 +1,6 @@
 <template>
   <page :title="category.title">
-    <!-- <ul>
-          <li 
-              v-for="link in $store.state.pages.home"
-              :key="link.url">
-            <img
-              :src="link.url"
-              class="media image"
-              alt="">
-          </li>
 
-        </ul> -->
     <carousel
       ref="carousel"
       :project-count="projects.length"

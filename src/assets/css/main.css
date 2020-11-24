@@ -35,9 +35,16 @@
 
 
 
-4 Extra
+4 Settings & Dancer
 
-4.1 Extra code
+4.1 Settings
+4.2 Dancer
+
+
+
+5 Extra
+
+5.1 Extra code
 
 ## Note that some css is written directly in the given components
 
@@ -49,8 +56,32 @@
 
 html {
   box-sizing: border-box;
-  height: 100%
+  height: 100%;
+  font-size:0.9vw;
+  background:#f1f1f1;
+  color: #212121;
 }
+
+@media (min-width:500px) {
+    html {
+        font-size: 0.85vw;
+    }
+}
+
+@media (min-width:768px) {
+    html {
+        font-size: 0.75vw;
+    }
+}
+
+
+@media (min-width:1000px) {
+    html {
+        font-size: 0.68vw;
+    }
+}
+
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -71,15 +102,15 @@ html {
 
 body {
     height: 100%;
-    font-family: 'MaisonNeue', Helvetica, sans-serif;
-    color: #212121;
+    font-family: 'MaisonNeue', 'NeueHaasGrotesk', Helvetica, sans-serif;
+    /*color: #212121;*/
     overflow-x: hidden;
     overflow-y: scroll;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
     -ms-text-size-adjust: none;
     text-size-adjust: none;
-    background: #f1f1f1;
+    /*background: #f1f1f1;*/
 }
 
 .app {
@@ -90,7 +121,9 @@ body {
 
 .app.is-ready {
     -webkit-animation: fade .25s ease-in-out forwards;
-    animation: fade .25s ease-in-out forwards
+    animation: fade .25s ease-in-out forwards;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
 }
 
 @media (min-width:768px) {
@@ -223,20 +256,46 @@ h1,span {
 }
 
 
+/* ----- Neue Haas Grotesk --------------------------------------------- */
+
+@font-face {
+    font-family: 'NeueHaasGrotesk';
+    src: url('../fonts/NHaasGroteskTXPro-55Rg.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'NeueHaasGrotesk';
+    src: url('../fonts/NHaasGroteskTXPro-65Md.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'NeueHaasGrotesk';
+    src: url('../fonts/NHaasGroteskTXPro-75Bd.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
 /* =====  2 LAYOUT HELPERS AND REUSABLE COMPONENTS  ================================================ */
 
 /* -----  2.1 Heading & General Layout ------------------------------------ */
 
 .heading {
-    font-size: 2.5rem;
-    line-height: 1.05;
+    /*font-size: 2.5rem;*/
+    line-height: 1.15;
     -webkit-transition: font-size .5s;
     transition: font-size .5s
 }
 
 @media (min-width:768px) {
     .heading {
-        font-size: 5rem
+        /*font-size: 5rem*/
     }
 }
 
@@ -276,13 +335,17 @@ h1,span {
     resize: both
 }
 
+.align-center {
+    text-align: center;
+}
+
 /* -----  2.2 Links  ------------------------------------ */
 
 .link {
-    border-bottom: 3px;
+    border-bottom: 2px;
     border-style: solid;
-    border-color: #212121;
-    line-height: 0.75;
+    /*border-color: #212121;*/
+    line-height: 0.65;
     display: inline-block;
     cursor: pointer;
     -webkit-transition: border-color .1s;
@@ -295,7 +358,7 @@ h1,span {
 }
 
 .link--no-active.is-active {
-    border-color: #212121
+    /*border-color: #212121*/
 }
 
 .link--no-active:hover {
@@ -307,17 +370,29 @@ h1,span {
     transition: none
 }*/
 
+@media (min-width:500px) {
+    .link {
+        border-bottom-width: 2.5px
+    }
+}
+
 @media (min-width:768px) {
+    .link {
+        border-bottom-width: 3.4px
+    }
+}
+
+
+@media (min-width:1000px) {
     .link {
         border-bottom-width: 5.4px
     }
 }
 
-
 /* -----  2.3 Rich Text  ------------------------------------ */
 
 .rich-text {
-    font-family: 'MaisonNeue', Helvetica, sans-serif;
+    /*font-family: 'MaisonNeue', Helvetica, sans-serif;*/
     font-size: .975rem;
     letter-spacing: .2px;
     line-height: 1.35
@@ -444,16 +519,29 @@ h1,span {
 }
 
 .pr-sm {
-    padding-right: 1.05rem
+    padding-right: 0.85rem
 }
 
 .pr-md {
     padding-right: 1.875rem
 }
 
+.pb-sm {
+    padding-bottom: 1.05rem
+}
+
 .pb-md {
     padding-bottom: 1.875rem
 }
+
+.pb-lg {
+    padding-bottom: 3rem
+}
+
+.pt-lg {
+    padding-top: 3rem
+}
+
 
 .text-sm {
     font-size: .975rem
@@ -660,52 +748,110 @@ h1,span {
 }
 
 
-/* =====  4 EXTRA   ================================================ */
+/* =====  4 SETTINGS & DANCER   ================================================ */
 
-/* -----  4.1 Extra Code  ------------------------------------ */
+/* -----  4.1 Settings  ------------------------------------ */
+
+.option {
+    margin-right: 0.5rem;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 12px;
+    overflow: hidden;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.label {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.danceOption {
+    margin-right: 0.5rem;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 54px;
+    overflow: hidden;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.optionLetter {
+    padding-top: 3px;
+}
+
+/* -----  4.1 Dancer  ------------------------------------ */
+
+.fitimage {
+    width:100vw;
+}
+
+@media (min-width:768px) {
+    .fitimage {
+        max-width: 100%;
+        max-height:100%;
+    }
+}
+
+.sticky {
+    position: fixed;
+    background: none;
+    z-index: 1;
+    pointer-events: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* =====  5 EXTRA   ================================================ */
+
+/* -----  5.1 Extra Code  ------------------------------------ */
 
 .lineheight-sm {
     line-height: 0.5
-}
-
-.bottomright {
-    mix-blend-mode: darken;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    width: 25%;
-}
-
-
-@media (min-width:768px) {
-    .bottomright {
-        mix-blend-mode: darken;
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        width:15%;
-    }
-}
-
-@media (min-width:1200px) {
-    .bottomright {
-        mix-blend-mode: darken;
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        width:10%;
-    }
-}
-
-.fitimage {
-    max-width: 100%;
-    max-height: 100%
-}
-
-.danceActive {
-    border-style: none;
-    -webkit-text-stroke: 0.035em #212121;
-    -webkit-text-fill-color: #F1F1F1
 }
 
 .bullets {
