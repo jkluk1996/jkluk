@@ -98,7 +98,7 @@
           <div class="danceOption"
           v-bind:style="isSelected.Dance.N"
           @click="changeDance()">
-            <span style="padding-bottom: 1px; padding-top: 17px;">
+            <span style="padding-top: 17px;">
               <svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg"
               v-bind:style="isSelected.Dance.svgStyle">
                 <g id="">
