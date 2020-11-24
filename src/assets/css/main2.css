@@ -50,25 +50,27 @@
 html {
   box-sizing: border-box;
   height: 100%;
-  font-size:.20em;
+  font-size:0.9vw;
+  background:#f1f1f1;
+  color: #212121;
 }
 
 @media (min-width:500px) {
     html {
-        font-size: 0.30em;
+        font-size: 0.85vw;
     }
 }
 
 @media (min-width:768px) {
     html {
-        font-size: 0.5em;
+        font-size: 0.75vw;
     }
 }
 
 
 @media (min-width:1000px) {
     html {
-        font-size: 0.80em;
+        font-size: 0.68vw;
     }
 }
 
@@ -94,14 +96,14 @@ html {
 body {
     height: 100%;
     font-family: 'MaisonNeue', 'NeueHaasGrotesk', Helvetica, sans-serif;
-    color: #212121;
+    /*color: #212121;*/
     overflow-x: hidden;
     overflow-y: scroll;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
     -ms-text-size-adjust: none;
     text-size-adjust: none;
-    background: #f1f1f1;
+    /*background: #f1f1f1;*/
 }
 
 .app {
@@ -268,48 +270,6 @@ h1,span {
 @font-face {
     font-family: 'NeueHaasGrotesk';
     src: url('../fonts/NHaasGroteskTXPro-75Bd.ttf');
-    font-weight: 600;
-    font-style: normal;
-}
-
-
-/* ----- Neue Haas Grotesk --------------------------------------------- */
-
-@font-face {
-    font-family: 'CourierPrime';
-    src: url('../fonts/CourierPrime-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'CourierPrime';
-    src: url('../fonts/CourierPrime-Bold.ttf');
-    font-weight: 500;
-    font-style: normal;
-}
-
-/* ----- Garamond --------------------------------------------- */
-
-@font-face {
-    font-family: 'Garamond';
-    src: url('../fonts/AGaramondPro-Regular.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'Garamond';
-    src: url('../fonts/AGaramondPro-Semibold.otf');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Garamond';
-    src: url('../fonts/AGaramondPro-Bold.otf');
     font-weight: 600;
     font-style: normal;
 }
@@ -567,6 +527,10 @@ h1,span {
     padding-bottom: 3rem
 }
 
+.pt-lg {
+    padding-top: 3rem
+}
+
 
 .text-sm {
     font-size: .975rem
@@ -811,8 +775,14 @@ h1,span {
 }
 
 .fitimage {
-    max-width: 100%;
-    max-height: 100%
+    width:100vw;
+}
+
+@media (min-width:768px) {
+    .fitimage {
+        max-width: 100%;
+        max-height:100%;
+    }
 }
 
 .danceActive {
@@ -889,7 +859,7 @@ section {
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    font-size: 52px;
+    font-size: 54px;
     overflow: hidden;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
@@ -937,13 +907,20 @@ section {
     font-size: 9rem
 }
 
-/*#options {
-    padding: 0.15em;
-    border: 2.4px solid #212121
-}*/
+.sticky {
+  position: fixed;
+  /*bottom: 0;
+  right: 0;*/
+  /*mix-blend-mode: darken;*/
+  background: none;
+  z-index: 1;
+  pointer-events: none;
+  left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  /*width: 100%*/
+}
 
-/*.selected {
-    border: 1px solid;
-    background-color: rgba(0,0,0,0);
-    
-}*/
+.align-center {
+    text-align: center;
+}

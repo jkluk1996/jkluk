@@ -24,11 +24,11 @@
       <div class="flex flex-wrap flex-auto">
         <div
           class="flex-auto flex-grow flex-no-shrink w-full md:min-w-220 pr-md">
-          <div class="flex flex-wrap mb-1 md:mb-md">
+          <div class="flex flex-wrap">
             <!-- <h1 class="pr-md" v-html="project.date"/> -->
             <h1 class="pr-sm flex-grow">{{this.index + 1}}/{{projects.length}}</h1>
-            <h1 class="pr-sm flex-grow">{{ project.title }}</h1>
-            <div class="pr-sm flex-grow" v-if="project.extra">Team: {{ project.extra }}</div>
+            <!-- <h1 class="pr-sm flex-grow">{{ project.title }}</h1> -->
+            <!-- <div class="pr-sm flex-grow" v-if="project.extra">Team: {{ project.extra }}</div> -->
             <nav
               v-if="!single"
               class="flex-no-grow flex-no-shrink">
@@ -45,6 +45,7 @@
               </button>
             </nav>
           </div>
+          <div class="align-center" v-if="project.extra">Team: {{ project.extra }}</div>
           <!-- <div
             class="rich-text"
             v-html="category.description"/> -->
@@ -165,6 +166,9 @@ export default {
       this.category = category
       this.projects = projects
       this.project = project
+
+      var newtop = document.getElementById('projects').offsetTop;
+      window.scrollTo({ top: newtop, behavior: 'smooth' })
     },
 
     init () {
