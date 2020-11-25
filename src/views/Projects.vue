@@ -13,7 +13,7 @@
     <footer v-show="ready" class="flex pt-md md:pt-sm">
       <div class="flex flex-wrap flex-auto">
         <div
-          class="flex-auto flex-grow flex-no-shrink w-full md:min-w-220 pr-md">
+          class="flex-auto flex-grow flex-no-shrink w-full md:min-w-220">
           <div class="flex flex-wrap">
             <!-- <h1 class="pr-md" v-html="project.date"/> -->
             <h1 class="pr-sm flex-grow">{{this.index + 1}}/{{projects.length}}</h1>
