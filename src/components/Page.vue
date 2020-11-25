@@ -10,7 +10,7 @@
       <div class="flex-no-grow">
         <router-link
           to="/">
-          <span class="link link--no-active link--no-transition lineheight-sm">&#215;</span>
+          <span class="btn link link--no-active link--no-transition lineheight-sm">&#215;</span>
         </router-link>
       </div>
     </header>

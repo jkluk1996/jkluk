@@ -864,3 +864,11 @@ section {
 #emoji {
     width: 46px;
 }
+
+.btn {
+    font-size: 1.5em;
+}
+
+.btn (min-width:768px) {
+    font-size: 1em;
+}

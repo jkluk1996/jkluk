@@ -23,13 +23,13 @@
               v-if="!single"
               class="flex-no-grow flex-no-shrink">
               <button
-                class="-mt-4 md:-mt-12 link lineheight-sm mr-sm md:mr-md"
+                class="btn -mt-4 md:-mt-12 link lineheight-sm mr-sm md:mr-md"
                 @click="handlePrevious">
                 <span>&lt;</span>
               </button>
 
               <button
-                class="-mt-4 ml-sm md:-mt-12 link lineheight-sm"
+                class=" btn -mt-4 ml-sm md:-mt-12 link lineheight-sm"
                 @click="handleNext">
                 <span>&gt;</span>
               </button>
