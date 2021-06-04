@@ -9,25 +9,25 @@
       {
          "title":"Animations",
          "slug":"animation",
-         "first":"brokenbottle",
+         "first":"lats",
          "description": "A series of short videos created in Maya or done using frame-by-frame animation in Photoshop focused on exploring different visual styles. A different song was chosen to be the theme of each animation with the goal of creating a visual representation of the chosen song. To do this each animation was created with a focus on expression rather than the realism some other works may pursue, curating the overall tone of the image through color, light, and movement. The animation for <i>Hurry Home</i> is a part of a larger unfinished series focused on dreamlike imagery and graphic narratives."
       },
       {
          "title":"Illustrations",
          "slug":"illustration",
-         "first":"la-lakers",
+         "first":"circle_the_drain",
          "description": "<p>A recent illustration series on select NBA teams. Also included is an older illustration series aiming to create a visual representation of selected holidays and other seasonal events. Exploration and experimentation played a large role in this project, with the goal being to gain experience in the Adobe suite and to develop a sense of different illustration processes. For example, a majority of the animated illustrations were done through hand drawn frame by frame animation inspired by the works of Canadian animator, Norman Mclaren.</p>"
       },
       {
          "title":"Photos",
          "slug":"photos",
-         "first":"003-1",
+         "first":"001-1",
          "description": "<p>Photographs taken across Canada, Japan, and Hong Kong made with a mixture of analog and digital processes, and edited digitally using Photoshop and Lightroom. Currently focused on a series of diptychs that explores the connection of images through color, composition, lighting, and feeling.</p>"
       },
       {
          "title":"Other Stuff",
          "slug":"misc",
-         "first":"to-carve-a-smile",
+         "first":"rider-waite",
          "description": "<p>Selected projects that don’t fall under the other categories. The short film, <i>To Carve a Smile</i> won Digital Health Circle’s Help My Grandma Day Contest, a digital storytelling contest aimed at building community through intergenerational storytelling. Live video effects created using Max software developed by Cycling ‘74.</p>"
       }
    ],
@@ -162,24 +162,6 @@
           "type": "image",
           "id": "677b6a10260e4e37badd2e381bd0ae25",
           "url": "https://jkluk.blob.core.windows.net/posters/euphoriaspecial01_web.jpg",
-          "caption": "",
-          "size": {
-            "width": 750,
-            "height": 1160
-          }
-        }
-      ]
-    },
-    {
-      "title": "We Are Who We Are",
-      "slug": "we-are-who-we-are",
-      "category": "posters",
-      "date": "<p>09.14.2020</p>",
-      "media": [
-        {
-          "type": "image",
-          "id": "97b0e2b7e30d4feca34e3d51793e6570",
-          "url": "https://jkluk.blob.core.windows.net/posters/wearewhoweare_web.jpg",
           "caption": "",
           "size": {
             "width": 750,
@@ -511,45 +493,29 @@
           }
         }
       ]
-    },
-    {
-      "title": "Dominic Fike - Rain or Shine Tour",
-      "slug": "ROS-tour",
-      "category": "posters",
-      "date": "<p>09.28.2020</p>",
-      "media": [
-        {
-          "type": "image",
-          "id": "1e77318fb34d4c799ce76c8b11e18735",
-          "url": "https://jkluk.blob.core.windows.net/posters/ROS_web.jpg",
-          "caption": "",
-          "size": {
-            "width": 750,
-            "height": 1160
-          }
-        }
-      ]
-    },
-    {
-      "title": "Vampire Weekend - Father of the Bride Tour",
-      "slug": "fotb-tour",
-      "category": "posters",
-      "date": "<p>09.25.2019</p>",
-      "media": [
-        {
-          "type": "image",
-          "id": "8eea7ade92a849d298b42be9c6a5a3ae",
-          "url": "https://jkluk.blob.core.windows.net/posters/vampireweekend_web.jpg",
-          "caption": "",
-          "size": {
-            "width": 750,
-            "height": 1160
-          }
-        }
-      ]
     }
   ],
   "animation":[
+    {
+      "title": "Porter Robinson - Look at the Sky",
+      "slug": "lats",
+      "category": "animation",
+      "date": "<p>09.13.2020</p>",
+      "media": [
+        {
+          "type": "video",
+          "id": "37a637d8a32c42f0b49bcdc395dc32c7",
+          "sources": [
+            {
+              "url": "https://jkluk.blob.core.windows.net/animation/LATS_web_1080x1080_AACAudio_4172.mp4",
+              "mime": "video/mp4",
+              "id": "37a637d8a32c42f0b49bcdc395dc32c7"
+            }
+          ],
+          "audio": false
+        }
+      ]
+    },
     {
       "title": "Umi - Broken Bottle",
       "slug": "brokenbottle",
@@ -672,6 +638,276 @@
     }
   ],
   "illustration":[
+    {
+      "title": "Circle the Drain",
+      "slug": "circle_the_drain",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "4235168db1d04e71bd3d0785ac50cf71",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/circlethedrain_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Aite Den 6",
+      "slug": "aiteden-06",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "c5aa863ab22348b6a089ab3466fe1204",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/aiteden06.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Aite Den 5",
+      "slug": "aiteden-05",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "d9dd821ef4134f8bbbc4c64250ec1210",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/aiteden05.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Aite Den 4",
+      "slug": "aiteden-04",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "389accad24934fb1a34417ff816e7d6d",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/aiteden04.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Aite Den 3",
+      "slug": "aiteden-03",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "da41dd56d2fd45fcb420e45c5e95520c",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/aiteden03.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Aite Den 2",
+      "slug": "aiteden-02",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "2361d1ba416045ac8f058eba910d711f",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/aiteden02.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Aite Den 1",
+      "slug": "aiteden-01",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "af0d0cc73cda4efc8286dfb8d2a4da71",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/aiteden01.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Rager Teenager",
+      "slug": "rager-teenager",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "12127c861e9d4c52adef5985acb33760",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/ragerteenager_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Garden Song",
+      "slug": "garden_song",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "d7e71fb8a35349c48ff2d32db1444e16",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/gardensong_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "blue",
+      "slug": "blue",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "f4cf22c27ed943b285c6b4c064dfaa8b",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/blue_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Cremation",
+      "slug": "cremation-sadmag",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "042f3f19e3c344679106d71aca64b534",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/cremation_web.png",
+          "caption": "",
+          "size": {
+            "width": 873,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Age Cake",
+      "slug": "age_cake",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "d2e339561cc0452880c8d1b20a685a0d",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/age_cake_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Pet Invest",
+      "slug": "pet_invest",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "c23a2741435640cfa1191fac4c997cb1",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/pet_invest_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Tree Communication",
+      "slug": "tree_communication",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "dbdb36ece7dd4e859a0d170d225bf188",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/tree_communication_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
+    {
+      "title": "Masks",
+      "slug": "masks",
+      "category": "illustration",
+      "date": "<p>08.17.2020</p>",
+      "media": [
+        {
+          "type": "image",
+          "id": "f8472c0690e74da8937b66a7ec32451a",
+          "url": "https://jkluk.blob.core.windows.net/holiday-illustrations/masks_web.jpg",
+          "caption": "",
+          "size": {
+            "width": 1160,
+            "height": 1160
+          }
+        }
+      ]
+    },
     {
       "title": "Los Angeles Lakers",
       "slug": "la-lakers",
@@ -1190,6 +1426,24 @@
   "photos":[
     {
       "title": "",
+      "slug": "001-1",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "39a5890ccc814f0fb636d4d763d94968",
+          "url": "https://jkluk.blob.core.windows.net/photos/001-1.jpg",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
       "slug": "003-1",
       "category": "photos",
       "date": "",
@@ -1198,6 +1452,42 @@
           "type": "image",
           "id": "f9ed435e2aba48baa4f9139eaa436625",
           "url": "https://jkluk.blob.core.windows.net/photos/003-1.png",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "003-2",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "f99ebc35e9c749dcbb1121d215f0046a",
+          "url": "https://jkluk.blob.core.windows.net/photos/003-2.png",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "",
+      "slug": "002-15",
+      "category": "photos",
+      "date": "",
+      "media": [
+        {
+          "type": "image",
+          "id": "df22a2a4ca0c47d8abfe583617b1ecfc",
+          "url": "https://jkluk.blob.core.windows.net/photos/002-15.jpg",
           "caption": "",
           "size": {
             "width": 1080,
@@ -1450,24 +1740,6 @@
           "type": "image",
           "id": "abcdfcd76c3a469b8043491187c15e28",
           "url": "https://jkluk.blob.core.windows.net/photos/002-14.jpg",
-          "caption": "",
-          "size": {
-            "width": 1080,
-            "height": 1080
-          }
-        }
-      ]
-    },
-    {
-      "title": "",
-      "slug": "002-15",
-      "category": "photos",
-      "date": "",
-      "media": [
-        {
-          "type": "image",
-          "id": "df22a2a4ca0c47d8abfe583617b1ecfc",
-          "url": "https://jkluk.blob.core.windows.net/photos/002-15.jpg",
           "caption": "",
           "size": {
             "width": 1080,
@@ -1763,17 +2035,20 @@
           }
         }
       ]
-    },
+    }
+  ],
+  "misc":[
     {
-      "title": "",
-      "slug": "001-1",
-      "category": "photos",
-      "date": "",
+      "title": "Rider-Waite",
+      "slug": "rider-waite",
+      "category": "misc",
+      "date": "<p>5-31-2021</p>",
+      "download": "https://jkluk.blob.core.windows.net/downloads/Rider-Waite.zip",
       "media": [
         {
           "type": "image",
-          "id": "39a5890ccc814f0fb636d4d763d94968",
-          "url": "https://jkluk.blob.core.windows.net/photos/001-1.jpg",
+          "id": "aeb6fe0f3eb9450d857bceae927305a8",
+          "url": "https://jkluk.blob.core.windows.net/etc/Rider_Waite_1.png",
           "caption": "",
           "size": {
             "width": 1080,
@@ -1781,9 +2056,45 @@
           }
         }
       ]
-    }
-  ],
-  "misc":[
+    },
+    {
+      "title": "Rider-Waite",
+      "slug": "rider-waite2",
+      "category": "misc",
+      "date": "<p>5-31-2021</p>",
+      "download": "https://jkluk.blob.core.windows.net/downloads/Rider-Waite.zip",
+      "media": [
+        {
+          "type": "image",
+          "id": "fdbbf5c3fdbd475cb63d23992f3f00e3",
+          "url": "https://jkluk.blob.core.windows.net/etc/Rider-Waite_2.png",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "title": "Rider-Waite",
+      "slug": "rider-waite3",
+      "category": "misc",
+      "date": "<p>5-31-2021</p>",
+      "download": "https://jkluk.blob.core.windows.net/downloads/Rider-Waite.zip",
+      "media": [
+        {
+          "type": "image",
+          "id": "8c512c780f7148349e24b75293971771",
+          "url": "https://jkluk.blob.core.windows.net/etc/Rider-Waite_3.png",
+          "caption": "",
+          "size": {
+            "width": 1080,
+            "height": 1080
+          }
+        }
+      ]
+    },
     {
       "title": "To Carve a Smile",
       "slug": "to-carve-a-smile",

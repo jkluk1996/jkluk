@@ -36,6 +36,7 @@
             </nav>
           </div>
           <div class="align-center" v-if="project.extra">Team: {{ project.extra }}</div>
+          <div class="align-center" v-if="project.download" ><a :href="project.download"> Download Rider-Waite</a> </div>
           <!-- <div
             class="rich-text"
             v-html="category.description"/> -->

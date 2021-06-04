@@ -12,7 +12,7 @@
         <p class="inline-block">
           <router-link to="/">
             <h2 class="link">Jacky Luk</h2>
-          </router-link> is a Graphic Designer and Illustrator based in Vancouver, BC. My work includes
+          </router-link> is a Multidisciplinary Artist based in Vancouver, BC. My work includes
         &nbsp;
         <router-link
           v-for="(category, i) in $store.state.pages.categories"
